@@ -2,11 +2,13 @@ import React from "react";
 
 const Intro = () => {
   return (
-    <div className="space-y-5 mt-20 h-[80vh]">
+    <div className="space-y-5 mt-20 md:h-[80vh]">
       <h3 className="text-neongreen font-fira text-3xl">Hi, my name is</h3>
-      <h1 className="text-text font-extrabold text-8xl">Avneesh Agarwal</h1>
-      <h2 className="text-textdark text-6xl">I build awesome websites!</h2>
-      <h4 className="w-3/5 text-textdark">
+      <h1 className="text-text font-extrabold  text-6xl md:text-8xl">
+        Avneesh Agarwal
+      </h1>
+      <h2 className="text-textdark text-4xl md:text-6xl">I build awesome websites!</h2>
+      <h4 className="md:w-3/5 text-textdark">
         I&rsquo;m a <span className="text-neongreen">Frontend Developer</span>{" "}
         focused on creating amazing UIs to solve business problems around the
         globe. I’m a school kid participating in Hackathons and solving problems

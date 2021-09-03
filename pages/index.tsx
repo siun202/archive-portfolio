@@ -17,7 +17,6 @@ export default function Home() {
 
       <div className="md:ml-40 ml-10 sm:ml-20 mb-10">
         <Intro />
-
         <About />
       </div>
     </div>
