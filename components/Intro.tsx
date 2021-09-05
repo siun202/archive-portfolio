@@ -16,7 +16,7 @@ const Intro = () => {
         globe. I’m a school kid participating in Hackathons and solving problems
         to build something cool :D
       </h4>
-      <button className="py-2 px-5 !mt-10 hover:bg-neongreen/50 hover:border-neongreen/50 hover:backdrop-blur-lg hover:text-text duration-75 delay-75 border-neongreen border-2 text-neongreen rounded-lg">
+      <button className="py-2 px-5 !mt-10 hover:bg-neongreen/90 hover:border-neongreen/90 hover:backdrop-blur-lg hover:text-white duration-100 border-neongreen border-2 text-neongreen rounded-lg">
         Reach out to me!
       </button>
     </div>

@@ -18,7 +18,8 @@ const Projects = () => {
           width={400}
         />
       </div>
-      <div className="flex flex-col items-center mt-10 just0fy-center md:flex-row">
+
+      <div className="flex flex-col items-center mt-10 md:mt-0 md:flex-row">
         <div className="relative w-[400px] h-[250px] md:w-[500px] md:h-[300px]">
           <Image
             src="https://res.cloudinary.com/dssvrf9oz/image/upload/v1630774147/voyagger_iribur.png"
@@ -28,6 +29,7 @@ const Projects = () => {
             objectFit="contain"
           />
         </div>
+
         <div className="md:ml-20 md:w-1/3">
           <h2 className="text-3xl font-semibold text-neongreen">Voyagger</h2>
           <p className="mt-5 text-textdark">
@@ -41,6 +43,32 @@ const Projects = () => {
             <p>Auth0</p>
             <p>Firebase</p>
             <p>TailwindCSS</p>
+          </div>
+
+          <div className="flex space-x-4 mt-4">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.voyagger.tech/"
+              className="py-2 px-5 hover:bg-neongreen/90 flex items-center hover:border-neongreen/90 hover:backdrop-blur-lg hover:text-white duration-100 border-neongreen border-2 text-neongreen rounded-lg"
+            >
+              <Image src="/github.svg" alt="github" height={20} width={20} />
+              <span className="ml-2">GitHub</span>
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/avneesh0612/voyagger"
+              className="py-2 px-5 hover:bg-neongreen/90 flex items-center hover:border-neongreen/90 hover:backdrop-blur-lg hover:text-white duration-100 border-neongreen border-2 text-neongreen rounded-lg"
+            >
+              <Image
+                src="/external-link.svg"
+                alt="externallink"
+                height={20}
+                width={20}
+              />
+              <span className="ml-2">Visit</span>
+            </a>
           </div>
         </div>
       </div>
