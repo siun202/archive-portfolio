@@ -11,8 +11,6 @@ const variants = {
   },
 };
 
-console.log(variants);
-
 export const Navigation = () => (
   <motion.ul
     className="m-0 p-6 absolute right-0 top-24 w-60"

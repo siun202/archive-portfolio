@@ -3,7 +3,7 @@ import { motion, useCycle } from "framer-motion";
 import { useDimensions } from "../hooks/useDimensions";
 import MenuToggle from "./header/MenuToggle";
 import { Navigation } from "./header/Navigation";
-import { useRef } from "react";
+import { useRef, useEffect, useState } from "react";
 
 const sidebar = {
   open: (height = 1000) => ({
@@ -29,9 +29,27 @@ const Header = () => {
   const [isOpen, toggleOpen] = useCycle(false, true);
   const containerRef = useRef(null);
   const { height } = useDimensions(containerRef);
+  const [handleShow, setHandleShow] = useState(false);
+
+  useEffect(() => {
+    const listener = () => {
+      if (window.scrollY > 80) {
+        setHandleShow(true);
+      } else setHandleShow(false);
+    };
+    window.addEventListener("scroll", listener);
+
+    return () => {
+      window.removeEventListener("scroll", listener);
+    };
+  }, []);
 
   return (
-    <nav className="py-3 px-24 md:sticky md:flex justify-between items-center">
+    <nav
+      className={`px-24 fixed bg-bgblue/90 w-full top-0 z-50 md:flex justify-between items-center ${
+        handleShow ? "shadow-2xl" : "py-3"
+      }`}
+    >
       <Image
         width={75}
         height={75}
@@ -41,7 +59,7 @@ const Header = () => {
       />
 
       <motion.nav
-        className="absolute top-2 md:hidden left-0 w-full"
+        className="absolute left-0 w-full top-2 md:hidden"
         initial={false}
         animate={isOpen ? "open" : "closed"}
         custom={height}
@@ -52,17 +70,17 @@ const Header = () => {
         <MenuToggle toggle={() => toggleOpen()} />
       </motion.nav>
 
-      <ol className=" space-x-8 md:flex hidden">
-        <li className="text-text cursor-pointer border-b-2 border-transparent hover:border-neongreen">
+      <ol className="hidden space-x-8 md:flex">
+        <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
           <span className="text-neongreen">1. </span> About
         </li>
-        <li className="text-text cursor-pointer border-b-2 border-transparent hover:border-neongreen">
+        <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
           <span className="text-neongreen">2. </span>Work
         </li>
-        <li className="text-text cursor-pointer border-b-2 border-transparent hover:border-neongreen">
+        <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
           <span className="text-neongreen">3. </span>Blog
         </li>
-        <li className="text-text cursor-pointer border-b-2 border-transparent hover:border-neongreen">
+        <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
           <span className="text-neongreen">4. </span>Contact
         </li>
       </ol>

@@ -1,7 +1,17 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 
-const Path = (props: any) => (
+interface pathProps {
+  variants?: any;
+  d?: string;
+  transition?: any;
+}
+
+interface MenuToggleProps {
+  toggle: any;
+}
+
+const Path = (props: pathProps) => (
   <motion.path
     fill="transparent"
     strokeWidth="3"
@@ -11,7 +21,7 @@ const Path = (props: any) => (
   />
 );
 
-const MenuToggle: React.FC<any> = ({ toggle }) => (
+const MenuToggle: React.FC<MenuToggleProps> = ({ toggle }) => (
   <button
     className="outline-none px-3 py-3 items-center justify-between flex text-neongreen fill-current bg-neongreen border-none cursor-pointer select-none absolute top-4 right-7 rounded-full"
     onClick={toggle}

@@ -4,22 +4,17 @@ import Image from "next/image";
 const About = () => {
   return (
     <div>
-      <div className="flex">
+      <div className="flex items-center mt-10 md:mt-0">
         <h2 className="text-text text-4xl">
           <span className="text-neongreen font-fira">01.</span> About me
         </h2>
-        <Image
-          className="!ml-10"
-          src="/line.svg"
-          alt="line"
-          height={1}
-          objectFit="contain"
-          width={400}
-        />
+        <div className="relative !ml-10 h-1 w-96">
+          <Image src="/line.svg" alt="line" objectFit="contain" layout="fill" />
+        </div>
       </div>
 
-      <div className="flex">
-        <h3 className="text-textdark w-1/2 mt-10 text-2xl">
+      <div className="flex flex-col md:flex-row ">
+        <h3 className="text-textdark md:w-1/2 mt-10 text-2xl">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
             architecto maiores nisi, deleniti repellendus id. Porro inventore,
@@ -42,7 +37,7 @@ const About = () => {
           </p>
         </h3>
 
-        <div className="ml-20">
+        <div className="ml-0 md:mt-0 md:ml-20 mt-20">
           <Image
             src="/Me.svg"
             alt="Avneesh Agarwal"

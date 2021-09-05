@@ -18,13 +18,11 @@ const variants = {
   },
 };
 
-const MenuItem: React.FC<any> = () => {
+const MenuItem: React.FC = () => {
   return (
-    <motion.li
-      className="list-none flex-col mb-5 flex cursor-pointer items-end bg-bgblue h-screen -mr-3 space-y-5"
+    <motion.ul
+      className="list-none flex-col mb-5 flex cursor-pointer items-end bg-bgblue min-h-screen -mr-3 space-y-5 z-50 backdrop-blur-md"
       variants={variants}
-      whileHover={{ scale: 1.1 }}
-      whileTap={{ scale: 0.95 }}
     >
       <li className="text-text cursor-pointer border-b-2 text-xl border-transparent hover:border-neongreen">
         <span className="text-neongreen">1. </span> About
@@ -38,7 +36,7 @@ const MenuItem: React.FC<any> = () => {
       <li className="text-text cursor-pointer border-b-2 text-xl border-transparent hover:border-neongreen">
         <span className="text-neongreen">4. </span>Contact
       </li>
-    </motion.li>
+    </motion.ul>
   );
 };
 
