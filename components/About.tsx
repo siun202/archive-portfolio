@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import data from "../public/data.json";
 
 const About = () => {
   return (
@@ -39,8 +40,8 @@ const About = () => {
 
         <div className="ml-0 md:mt-0 md:ml-20 mt-20">
           <Image
-            src="/Me.svg"
-            alt="Avneesh Agarwal"
+            src={data.image}
+            alt={data.name}
             objectFit="contain"
             width={300}
             height={300}

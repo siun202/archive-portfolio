@@ -1,0 +1,18 @@
+{
+  "name": "Avneesh Agarwal",
+  "image": "/Me.svg",
+  "profession": "FullStack web developer",
+  "intro": "Focused on creating amazing UIs to solve business problems around the globe. I’m a school kid participating in Hackathons and solving problems to build something cool :D",
+  "projects": [
+    {
+      "name": "Voyager",
+      "image": "https://res.cloudinary.com/dssvrf9oz/image/upload/v1630774147/voyagger_iribur.png",
+      "about": "These tough times have made us all aware of the importance of our loved ones and through this app, users can bring a their family and friend's faces by sending them their favoritedelicacy, medicines, or a simple heartfelt gift.",
+      "tech": ["Next.js", "Auth0", "Firebase", "TailwindCSS"],
+      "links": {
+        "GitHub": "https://github.com/avneesh0612/voyagger",
+        "Live": "https://www.voyagger.tech"
+      }
+    }
+  ]
+}
