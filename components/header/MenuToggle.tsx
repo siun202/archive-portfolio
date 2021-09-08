@@ -2,13 +2,24 @@ import * as React from "react";
 import { motion } from "framer-motion";
 
 interface pathProps {
-  variants?: any;
+  variants?: {
+    open: {
+      d?: string;
+      opacity?: number;
+    };
+    closed: {
+      d?: string;
+      opacity?: number;
+    };
+  };
   d?: string;
-  transition?: any;
+  transition?: {
+    duration?: number;
+  };
 }
 
 interface MenuToggleProps {
-  toggle: any;
+  toggle: React.MouseEventHandler<HTMLButtonElement>;
 }
 
 const Path = (props: pathProps) => (
