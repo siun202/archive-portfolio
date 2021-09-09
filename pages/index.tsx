@@ -3,7 +3,8 @@ import About from "../components/About";
 import Header from "../components/Header";
 import Intro from "../components/Intro";
 import Projects from "../components/Projects";
-import React, { useRef } from "react";
+import React from "react";
+import Contact from "../components/Contact";
 export default function Home() {
   return (
     <div>
@@ -20,6 +21,7 @@ export default function Home() {
         <Intro />
         <About />
         <Projects />
+        <Contact />
       </div>
     </div>
   );
