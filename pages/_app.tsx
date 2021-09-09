@@ -8,9 +8,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       <NextSeo
         title="Avneesh Agarwal"
         description="This is Avneesh's portfolio"
-        canonical="https://www.canonical.ie/"
+        canonical="https://avneesh.vercel.app/"
         openGraph={{
-          url: "https://www.url.ie/a",
+          url: "https://avneesh.vercel.app/",
           title: "Open Graph Title",
           description: "Open Graph Description",
           images: [],
