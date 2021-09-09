@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <div id="intro" className="space-y-5 mt-20 md:h-[70vh]">
       <h3 className="text-3xl text-neongreen font-fira">Hi, my name is</h3>
-      <h1 className="text-6xl font-extrabold text-text md:text-8xl">
+      <h1 className="text-5xl font-extrabold text-text md:text-8xl">
         {data.name}
       </h1>
       <h2 className="text-4xl text-textdark md:text-6xl">

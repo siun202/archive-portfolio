@@ -22,7 +22,7 @@ const variants = {
 const MenuItem: React.FC = () => {
   return (
     <motion.ul
-      className="list-none flex-col mb-5 flex cursor-pointer pl-10 bg-bgblue min-h-screen mt-0 -mr-3 space-y-5 z-50 backdrop-blur-md"
+      className="list-none flex-col mb-5 flex pl-10 bg-bgblue min-h-screen mt-0 -mr-3 space-y-5 z-50 backdrop-blur-md"
       variants={variants}
     >
       <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
