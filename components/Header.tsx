@@ -90,7 +90,7 @@ const Header = () => {
             to="work"
             spy={true}
             smooth={true}
-            offset={100}
+            offset={-100}
             duration={500}
           >
             <span className="text-neongreen">2. </span>Work
