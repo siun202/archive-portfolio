@@ -4,6 +4,7 @@ import { useDimensions } from "../hooks/useDimensions";
 import MenuToggle from "./header/MenuToggle";
 import { Navigation } from "./header/Navigation";
 import { useRef, useEffect, useState } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const sidebar = {
   open: (height = 1000) => ({
@@ -72,10 +73,27 @@ const Header = () => {
 
       <ol className="hidden space-x-8 md:flex">
         <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
-          <span className="text-neongreen">1. </span> About
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            <span className="text-neongreen">1. </span> About
+          </Link>
         </li>
         <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
-          <span className="text-neongreen">2. </span>Work
+          <Link
+            activeClass="active"
+            to="work"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            <span className="text-neongreen">2. </span>Work
+          </Link>
         </li>
         <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
           <span className="text-neongreen">3. </span>Blog

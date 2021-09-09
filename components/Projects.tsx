@@ -4,14 +4,14 @@ import data from "../public/data.json";
 
 const Projects = () => {
   return (
-    <div className="mt-10">
-      <div className="flex">
+    <div id="work">
+      <div className="flex mt-20">
         <h2 className="text-4xl text-text">
           <span className="text-neongreen font-fira">02.</span> Some Things I’ve
           Built
         </h2>
         <Image
-          className="ml-10"
+          className="!ml-10"
           src="/line.svg"
           alt="line"
           height={1}
@@ -20,7 +20,7 @@ const Projects = () => {
         />
       </div>
 
-      <div className="flex flex-col mt-10">
+      <div className="flex flex-col">
         {data.projects.map((project, i) => (
           <div key={i} className="flex flex-col items-center mt-10 md:flex-row">
             <div className="relative w-[450px] h-[250px] rounded-lg">

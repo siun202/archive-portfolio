@@ -3,7 +3,7 @@ import data from "../public/data.json";
 
 const Intro = () => {
   return (
-    <div className="space-y-5 mt-20 md:h-[80vh]">
+    <div id="intro" className="space-y-5 mt-20 md:h-[70vh]">
       <h3 className="text-3xl text-neongreen font-fira">Hi, my name is</h3>
       <h1 className="text-6xl font-extrabold text-text md:text-8xl">
         {data.name}

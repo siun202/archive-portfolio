@@ -4,8 +4,8 @@ import data from "../public/data.json";
 
 const About = () => {
   return (
-    <div>
-      <div className="flex items-center mt-10 md:mt-0">
+    <div id="about">
+      <div className="flex items-center">
         <h2 className="text-text text-xl md:text-4xl">
           <span className="text-neongreen font-fira">01.</span> About me
         </h2>
