@@ -11,10 +11,10 @@ const Intro = () => {
       <h2 className="text-4xl text-textdark md:text-6xl">
         I build awesome websites!
       </h2>
-      <h4 className="w-4/5 md:w-3/5 text-textdark">
+      <p className="w-4/5 md:w-3/5 text-textdark">
         I&rsquo;m a <span className="text-neongreen">{data.profession}</span>{" "}
         {data.profession}
-      </h4>
+      </p>
       <button className="py-2 px-5 !mt-10 hover:bg-neongreen/90 hover:border-neongreen/90 hover:backdrop-blur-lg hover:text-white duration-100 border-neongreen border-2 text-neongreen rounded-lg">
         Reach out to me!
       </button>
