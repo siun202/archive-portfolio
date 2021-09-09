@@ -21,19 +21,19 @@ const variants = {
 const MenuItem: React.FC = () => {
   return (
     <motion.ul
-      className="list-none flex-col mb-5 flex cursor-pointer items-end bg-bgblue min-h-screen -mr-3 space-y-5 z-50 backdrop-blur-md"
+      className="list-none flex-col mb-5 flex cursor-pointer pl-10 bg-bgblue min-h-screen mt-0 -mr-3 space-y-5 z-50 backdrop-blur-md"
       variants={variants}
     >
-      <li className="text-text cursor-pointer border-b-2 text-xl border-transparent hover:border-neongreen">
+      <li className="text-text cursor-pointer neon-underline text-xl border-transparent">
         <span className="text-neongreen">1. </span> About
       </li>
-      <li className="text-text cursor-pointer border-b-2 text-xl border-transparent hover:border-neongreen">
+      <li className="text-text cursor-pointer neon-underline text-xl border-transparent">
         <span className="text-neongreen">2. </span>Work
       </li>
-      <li className="text-text cursor-pointer border-b-2 text-xl border-transparent hover:border-neongreen">
+      <li className="text-text cursor-pointer neon-underline  text-xl border-transparent">
         <span className="text-neongreen">3. </span>Blog
       </li>
-      <li className="text-text cursor-pointer border-b-2 text-xl border-transparent hover:border-neongreen">
+      <li className="text-text cursor-pointer neon-underline  text-xl border-transparent">
         <span className="text-neongreen">4. </span>Contact
       </li>
     </motion.ul>

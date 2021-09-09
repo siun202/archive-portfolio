@@ -33,3 +33,8 @@ body::-webkit-scrollbar-track {
   width: 300px;
   background: #fff;
 }
+
+.neon-underline:hover {
+  text-decoration: underline;
+  text-decoration-color: #52dee5;
+}

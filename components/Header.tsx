@@ -46,8 +46,8 @@ const Header = () => {
 
   return (
     <nav
-      className={`px-24 fixed bg-bgblue/90 w-full top-0 z-50 md:flex justify-between items-center ${
-        handleShow ? "shadow-2xl" : "py-3"
+      className={`px-24 fixed bg-bgblue/60 backdrop-filter backdrop-blur-xl w-full top-0 z-50 md:flex justify-between items-center ${
+        handleShow ? "shadow-2xl" : "md:py-3"
       }`}
     >
       <Image

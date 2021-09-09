@@ -6,12 +6,22 @@
   "projects": [
     {
       "name": "Voyager",
-      "image": "https://res.cloudinary.com/dssvrf9oz/image/upload/v1630774147/voyagger_iribur.png",
+      "image": "/projects/Voyagger.png",
       "about": "These tough times have made us all aware of the importance of our loved ones and through this app, users can bring a their family and friend's faces by sending them their favoritedelicacy, medicines, or a simple heartfelt gift.",
       "tech": ["Next.js", "Auth0", "Firebase", "TailwindCSS"],
       "links": {
         "GitHub": "https://github.com/avneesh0612/voyagger",
         "Live": "https://www.voyagger.tech"
+      }
+    },
+    {
+      "name": "ChatCube",
+      "image": "/projects/ChatCube.png",
+      "about": "ChatCube is a 1:1 chatting application. You can invite your friends and chat with in realtime. You can send them emojis, photos text messages and many more.",
+      "tech": ["Next.js", "Auth0", "Firebase", "TailwindCSS"],
+      "links": {
+        "GitHub": "https://github.com/avneesh0612/ChatCube",
+        "Live": "https://www.chatcube.me"
       }
     }
   ]

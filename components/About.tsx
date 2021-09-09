@@ -6,10 +6,10 @@ const About = () => {
   return (
     <div>
       <div className="flex items-center mt-10 md:mt-0">
-        <h2 className="text-text text-4xl">
+        <h2 className="text-text text-xl md:text-4xl">
           <span className="text-neongreen font-fira">01.</span> About me
         </h2>
-        <div className="relative !ml-10 h-1 w-96">
+        <div className="relative !ml-10 h-1 w-60 md:w-96">
           <Image src="/line.svg" alt="line" objectFit="contain" layout="fill" />
         </div>
       </div>

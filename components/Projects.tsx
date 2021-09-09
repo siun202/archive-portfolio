@@ -22,16 +22,13 @@ const Projects = () => {
 
       <div className="flex flex-col mt-10">
         {data.projects.map((project, i) => (
-          <div
-            key={i}
-            className="flex flex-col items-center mt-10 md:mt-0 md:flex-row"
-          >
-            <div className="relative w-[400px] h-[250px] md:w-[500px] md:h-[300px]">
+          <div key={i} className="flex flex-col items-center mt-10 md:flex-row">
+            <div className="relative w-[450px] h-[250px] rounded-lg">
               <Image
                 src={project.image}
                 alt={project.name}
                 layout="fill"
-                className=""
+                className="rounded-lg"
                 objectFit="contain"
               />
             </div>
