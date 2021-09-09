@@ -16,7 +16,7 @@
     },
     {
       "name": "ChatCube",
-      "image": "/projects/ChatCube.png",
+      "image": "/projects/Chatcube.png",
       "about": "ChatCube is a 1:1 chatting application. You can invite your friends and chat with in realtime. You can send them emojis, photos text messages and many more.",
       "tech": ["Next.js", "Auth0", "Firebase", "TailwindCSS"],
       "links": {
