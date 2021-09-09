@@ -44,6 +44,7 @@ const MenuItem: React.FC = () => {
           spy={true}
           smooth={true}
           duration={500}
+          offset={-100}
         >
           <span className="text-neongreen">2. </span>Work
         </Link>
