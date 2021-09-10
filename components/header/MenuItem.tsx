@@ -1,6 +1,6 @@
-import * as React from "react";
 import { motion } from "framer-motion";
-import { Link, animateScroll as scroll } from "react-scroll";
+import * as React from "react";
+import { Link } from "react-scroll";
 
 const variants = {
   open: {

@@ -1,5 +1,5 @@
-import React from "react";
 import Image from "next/image";
+import React from "react";
 import data from "../public/data.json";
 
 const Projects = () => {
@@ -7,7 +7,7 @@ const Projects = () => {
     <div id="work">
       <div className="flex mt-20">
         <h2 className="text-4xl text-text">
-          <span className="text-neongreen font-fira">02.</span> Some Things I’ve
+          <span className="text-neongreen font-fira">03.</span> Some Things I’ve
           Built
         </h2>
         <Image

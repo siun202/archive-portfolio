@@ -1,10 +1,12 @@
 import Head from "next/head";
+import React from "react";
 import About from "../components/About";
+import Contact from "../components/Contact";
 import Header from "../components/Header";
 import Intro from "../components/Intro";
 import Projects from "../components/Projects";
-import React from "react";
-import Contact from "../components/Contact";
+import Skills from "../components/Skills";
+
 export default function Home() {
   return (
     <div>
@@ -20,6 +22,7 @@ export default function Home() {
       <div className="md:ml-40 relative ml-10 sm:ml-20 mb-10">
         <Intro />
         <About />
+        <Skills />
         <Projects />
         <Contact />
       </div>

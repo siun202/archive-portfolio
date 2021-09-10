@@ -1,10 +1,10 @@
-import Image from "next/image";
 import { motion, useCycle } from "framer-motion";
+import Image from "next/image";
+import { useEffect, useRef, useState } from "react";
+import { Link } from "react-scroll";
 import { useDimensions } from "../hooks/useDimensions";
 import MenuToggle from "./header/MenuToggle";
 import { Navigation } from "./header/Navigation";
-import { useRef, useEffect, useState } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
 
 const sidebar = {
   open: (height = 1000) => ({
@@ -87,17 +87,26 @@ const Header = () => {
         <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
           <Link
             activeClass="active"
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            <span className="text-neongreen">2. </span>Skills
+          </Link>
+        </li>{" "}
+        <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
+          <Link
+            activeClass="active"
             to="work"
             spy={true}
             smooth={true}
             offset={-100}
             duration={500}
           >
-            <span className="text-neongreen">2. </span>Work
+            <span className="text-neongreen">3. </span>Work
           </Link>
-        </li>
-        <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
-          <span className="text-neongreen">3. </span>Blog
         </li>
         <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
           <Link

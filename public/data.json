@@ -3,6 +3,38 @@
   "image": "/Me.svg",
   "profession": "FullStack web developer",
   "intro": "Focused on creating amazing UIs to solve business problems around the globe. I’m a school kid participating in Hackathons and solving problems to build something cool :D",
+  "skills": [
+    {
+      "src": "/logos/firebase.svg",
+      "name": "Firebase",
+      "link": "https://firebase.google.com/"
+    },
+    {
+      "src": "/logos/github-logo.svg",
+      "name": "GitHub",
+      "link": "https://github.com/"
+    },
+    {
+      "src": "/logos/nextjs.svg",
+      "name": "Next.js",
+      "link": "https://nextjs.org/"
+    },
+    {
+      "src": "/logos/React.svg",
+      "name": "React",
+      "link": "https://reactjs.org/"
+    },
+    {
+      "src": "/logos/tailwind.svg",
+      "name": "Tailwind",
+      "link": "https://tailwindcss.com/"
+    },
+    {
+      "src": "/logos/typescript.svg",
+      "name": "Typescreipt",
+      "link": "https://www.typescriptlang.org/"
+    }
+  ],
   "projects": [
     {
       "name": "Voyager",
