@@ -100,7 +100,16 @@ const Header = () => {
           <span className="text-neongreen">3. </span>Blog
         </li>
         <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
-          <span className="text-neongreen">4. </span>Contact
+          <Link
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            <span className="text-neongreen">4. </span>Contact
+          </Link>{" "}
         </li>
       </ol>
     </nav>

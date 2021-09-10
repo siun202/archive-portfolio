@@ -11,14 +11,21 @@ function MyApp({ Component, pageProps }: AppProps) {
         canonical="https://avneesh.vercel.app/"
         openGraph={{
           url: "https://avneesh.vercel.app/",
-          title: "Open Graph Title",
-          description: "Open Graph Description",
-          images: [],
+          title: "Avneesh Agarwal",
+          description: "Portfolio of Avneesh Agarwal",
+          images: [
+            {
+              url: "/seo-image.png",
+              width: 800,
+              height: 420,
+              alt: "Avneesh",
+            },
+          ],
           site_name: "Avneesh",
         }}
         twitter={{
-          handle: "@handle",
-          site: "@site",
+          handle: "@avneesh0612",
+          site: "@avneesh0612",
           cardType: "summary_large_image",
         }}
       />
