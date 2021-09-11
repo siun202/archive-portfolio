@@ -1,9 +1,16 @@
+import { motion } from "framer-motion";
 import React from "react";
 import data from "../public/data.json";
 
 const Intro = () => {
   return (
-    <div id="intro" className="space-y-5 mt-20 md:h-[70vh]">
+    <motion.div
+      initial={{ y: 40 }}
+      animate={{ y: 0 }}
+      transition={{ duration: 0.5 }}
+      id="intro"
+      className="space-y-5 mt-20 md:h-[80vh]"
+    >
       <h3 className="text-3xl text-neongreen font-fira">Hi, my name is</h3>
       <h1 className="text-5xl font-extrabold text-text md:text-8xl">
         {data.name}
@@ -18,7 +25,7 @@ const Intro = () => {
       <button className="py-2 px-5 !mt-10 hover:bg-neongreen/90 hover:border-neongreen/90 hover:backdrop-blur-lg hover:text-white duration-100 border-neongreen border-2 text-neongreen rounded-lg">
         Reach out to me!
       </button>
-    </div>
+    </motion.div>
   );
 };
 

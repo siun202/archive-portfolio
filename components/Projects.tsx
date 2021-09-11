@@ -5,7 +5,12 @@ import data from "../public/data.json";
 const Projects = () => {
   return (
     <div id="work">
-      <div className="flex mt-20">
+      <div
+        data-aos="fade-right"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        className="flex mt-20"
+      >
         <h2 className="text-4xl text-text">
           <span className="text-neongreen font-fira">03.</span> Some Things I’ve
           Built

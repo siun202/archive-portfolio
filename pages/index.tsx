@@ -25,9 +25,9 @@ export default function Home() {
         <About />
         <Skills />
         <Projects />
+        <Testimonials />
         <Contact />
       </div>
-      <Testimonials />
     </div>
   );
 }

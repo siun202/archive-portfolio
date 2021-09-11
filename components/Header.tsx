@@ -51,13 +51,23 @@ const Header = () => {
         handleShow ? "shadow-2xl" : "md:py-3"
       }`}
     >
-      <Image
-        width={75}
-        height={75}
-        objectFit="contain"
-        src="/logo.svg"
-        alt="logo"
-      />
+      <Link
+        activeClass="active"
+        to="intro"
+        spy={true}
+        smooth={true}
+        offset={-100}
+        duration={500}
+      >
+        <Image
+          className="cursor-pointer"
+          width={75}
+          height={75}
+          objectFit="contain"
+          src="/logo.svg"
+          alt="logo"
+        />
+      </Link>
 
       <motion.nav
         className="absolute left-0 w-full top-2 md:hidden"

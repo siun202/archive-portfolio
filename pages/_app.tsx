@@ -1,8 +1,14 @@
 import { NextSeo } from "next-seo";
 import { AppProps } from "next/app";
 import "../styles/globals.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
+  if (typeof window === "object") {
+    AOS.init();
+  }
+
   return (
     <>
       <NextSeo

@@ -4,7 +4,12 @@ import data from "../public/data.json";
 const Skills = () => {
   return (
     <div id="skills" className="mt-20">
-      <div className="flex items-center mt-20 md:mt-0">
+      <div
+        data-aos="fade-right"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        className="flex items-center mt-20 md:mt-0"
+      >
         <h2 className="text-text text-xl md:text-4xl">
           <span className="text-neongreen font-fira">02.</span> Skills
         </h2>
