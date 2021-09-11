@@ -1,20 +1,24 @@
-import Image from "next/image";
+import Title from "./Title";
+import data from "../public/data.json";
 
 const Testimonials = () => {
   return (
-    <div id="testimonials">
-      <div
-        data-aos="fade-right"
-        data-aos-delay="50"
-        data-aos-duration="1000"
-        className="flex items-center mt-20 md:mt-0"
-      >
-        <h2 className="text-text text-xl md:text-4xl">
-          <span className="text-neongreen font-fira">04.</span> Testimonials
-        </h2>
-        <div className="relative !ml-10 h-1 w-60 md:w-96">
-          <Image src="/line.svg" alt="line" objectFit="contain" layout="fill" />
-        </div>
+    <div id="testimonials" className="-ml-40">
+      <div className="ml-40">
+        <Title num={4} title="Testimonials" />
+      </div>
+      <div className="overflow-hidden flex w-screen mx-auto mt-10 space-x-10">
+        {data.testimonials.map((testimonial, i) => (
+          <div
+            key={i}
+            className="bg-darkerblue transform !rotate-45 px-4 pb-3 min-w-[400px] rounded-lg animate-slide"
+            style={{ transform: "rotate(90deg)" }}
+          >
+            <h2 className="mt-5">{testimonial.value}</h2>
+            <h2 className="text-white mt-4">{testimonial.name}</h2>
+            <h2 className="text-white">{testimonial?.relation}</h2>
+          </div>
+        ))}{" "}
       </div>
     </div>
   );

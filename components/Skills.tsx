@@ -1,30 +1,34 @@
+import { motion } from "framer-motion";
 import Image from "next/image";
 import data from "../public/data.json";
+import Title from "./Title";
 
 const Skills = () => {
   return (
     <div id="skills" className="mt-20">
-      <div
-        data-aos="fade-right"
-        data-aos-delay="50"
-        data-aos-duration="1000"
-        className="flex items-center mt-20 md:mt-0"
-      >
-        <h2 className="text-text text-xl md:text-4xl">
-          <span className="text-neongreen font-fira">02.</span> Skills
-        </h2>
-        <div className="relative !ml-10 h-1 w-60 md:w-96">
-          <Image src="/line.svg" alt="line" objectFit="contain" layout="fill" />
-        </div>
-      </div>
+      <Title num={2} title="Skills" />
 
-      <div className="flex  space-x-10">
+      <div className="flex mt-10 space-x-10">
         {data.skills.map((skill, i) => (
-          <div key={i} className="cursor-pointer">
-            <a href={skill.link}>
-              <Image src={skill.src} alt={skill.name} width={75} height={75} />
-            </a>
-          </div>
+          <motion.a
+            key={i}
+            className="cursor-pointer relative w-20 h-20"
+            href={skill.link}
+            whileHover={{
+              scale: [1, 1.3, 1.15],
+              zIndex: 1,
+              transition: {
+                duration: 1,
+              },
+            }}
+          >
+            <Image
+              src={skill.src}
+              alt={skill.name}
+              layout="fill"
+              objectFit="contain"
+            />
+          </motion.a>
         ))}
       </div>
     </div>

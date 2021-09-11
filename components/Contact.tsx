@@ -17,7 +17,8 @@ const Contact = () => {
           <Image src="/line.svg" alt="line" objectFit="contain" layout="fill" />
         </div>
       </div>
-      <div className="flex md:flex-row flex-col space-x-8 items-center mt-10">
+
+      <div className="flex flex-wrap ml-10 md:ml-0 space-x-8 items-center mt-10">
         <ContactButtons
           name="GitHub"
           icon="github.svg"

@@ -1,29 +1,12 @@
 import Image from "next/image";
 import React from "react";
 import data from "../public/data.json";
+import Title from "./Title";
 
 const Projects = () => {
   return (
     <div id="work">
-      <div
-        data-aos="fade-right"
-        data-aos-delay="50"
-        data-aos-duration="1000"
-        className="flex mt-20"
-      >
-        <h2 className="text-4xl text-text">
-          <span className="text-neongreen font-fira">03.</span> Some Things I’ve
-          Built
-        </h2>
-        <Image
-          className="!ml-10"
-          src="/line.svg"
-          alt="line"
-          height={1}
-          objectFit="contain"
-          width={400}
-        />
-      </div>
+      <Title num={3} title="Some Things I’ve Built" />
 
       <div className="flex flex-col">
         {data.projects.map((project, i) => (
