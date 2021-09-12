@@ -13,17 +13,18 @@ const Title: React.FC<TitleProps> = ({ num, title }) => {
       data-aos-duration="1000"
       className="flex mt-20"
     >
-      <h2 className="text-4xl text-text">
+      <h2 className="md:text-4xl text-3xl text-text">
         <span className="text-neongreen font-fira">0{num}.</span> {title}
       </h2>
-      <Image
-        className="!ml-10"
-        src="/line.svg"
-        alt="line"
-        height={1}
-        objectFit="contain"
-        width={400}
-      />
+      <div className="relative md:w-96 w-60">
+        <Image
+          className="!ml-10"
+          src="/line.svg"
+          alt="line"
+          objectFit="contain"
+          layout="fill"
+        />
+      </div>
     </div>
   );
 };

@@ -8,7 +8,7 @@ const About = () => {
     <div id="about">
       <Title num={1} title="About me" />
 
-      <div className="flex flex-col md:flex-row ">
+      <div className="flex flex-col md:flex-row">
         <h3 className="text-textdark md:w-1/2 mt-10 text-2xl">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint

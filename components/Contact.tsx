@@ -6,19 +6,19 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="mx-auto mt-20 flex flex-col items-center -ml-20"
+      className="mx-auto mt-20 flex flex-col items-center md:-ml-40 w-screen justify-center"
     >
-      <div className="flex items-center mt-20 md:mt-0 mx-auto  space-x-10">
-        <div className="relative h-1 md:w-60">
-          <Image src="/line.svg" alt="line" objectFit="contain" layout="fill" />
+      <div className="flex items-center mt-20 md:mt-0 mx-auto  space-x-10 -ml-0">
+        <div className="relative h-1 w-24 md:w-60">
+          <Image src="/line.svg" alt="line" layout="fill" />
         </div>
         <h2 className="text-text text-xl md:text-4xl">Get in Touch</h2>
-        <div className="relative h-1  md:w-60">
-          <Image src="/line.svg" alt="line" objectFit="contain" layout="fill" />
+        <div className="relative h-1 w-24 md:w-60">
+          <Image src="/line.svg" alt="line" layout="fill" />
         </div>
       </div>
 
-      <div className="flex flex-wrap ml-10 md:ml-0 space-x-8 items-center mt-10">
+      <div className="flex items-center flex-wrap mx-auto space-x-10 mt-10 ml-10">
         <ContactButtons
           name="GitHub"
           icon="github.svg"
@@ -37,6 +37,11 @@ const Contact = () => {
         <ContactButtons
           name="LinkedIn"
           icon="linkedin.svg"
+          link="https://www.linkedin.com/in/avneesh-agarwal-78312b20a/"
+        />{" "}
+        <ContactButtons
+          name="Twitter"
+          icon="twitter.svg"
           link="https://www.linkedin.com/in/avneesh-agarwal-78312b20a/"
         />
         <ContactButtons

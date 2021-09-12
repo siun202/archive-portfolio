@@ -21,7 +21,7 @@ const Projects = () => {
               />
             </div>
 
-            <div className="md:ml-20 md:w-1/3">
+            <div className="md:ml-20 ml-2 md:w-1/3">
               <h2 className="text-3xl font-semibold text-neongreen">
                 {project.name}
               </h2>

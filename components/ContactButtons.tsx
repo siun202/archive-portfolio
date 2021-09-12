@@ -14,10 +14,18 @@ const ContactButtons: React.FC<ButtonProps> = ({ link, name, icon }) => {
         target="_blank"
         rel="noreferrer"
         href={link}
-        className="py-2 px-5 flex items-center duration-100 border-neongreen border-2 text-neongreen rounded-lg fill-current"
+        className="py-2 md:flex hidden px-5 items-center duration-100 border-neongreen border-2 text-neongreen rounded-lg fill-current"
       >
         <Image src={`/logos/${icon}`} alt={name} width={25} height={25} />
         <span className="ml-2">{name}</span>
+      </a>
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href={link}
+        className="py-2 flex md:hidden items-center duration-100  text-neongreen rounded-lg fill-current"
+      >
+        <Image src={`/logos/${icon}`} alt={name} width={25} height={25} />
       </a>
     </div>
   );
