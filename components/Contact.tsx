@@ -6,10 +6,10 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="mx-auto mt-20 flex flex-col items-center md:-ml-40 w-screen justify-center"
+      className="mx-auto mt-20 flex flex-col items-center w-screen justify-center"
     >
-      <div className="flex items-center mt-20 md:mt-0 mx-auto  space-x-10 -ml-0">
-        <div className="relative h-1 w-24 md:w-60">
+      <div className="flex items-center flex-wrap mx-auto space-x-10 mt-10 ml-5 md:ml-10">
+        <div className="relative h-1 w-24 md:w-60  md:ml-40 ml-0">
           <Image src="/line.svg" alt="line" layout="fill" />
         </div>
         <h2 className="text-text text-xl md:text-4xl">Get in Touch</h2>
