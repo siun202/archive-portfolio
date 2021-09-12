@@ -20,7 +20,7 @@ export default function Home() {
         <Header />
       </div>
 
-      <div className="md:ml-40 relative ml-10 sm:ml-20 mb-10">
+      <div className="md:ml-40 relative ml-5 mb-10">
         <Intro />
         <About />
         <Skills />

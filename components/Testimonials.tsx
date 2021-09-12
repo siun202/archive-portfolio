@@ -4,7 +4,7 @@ import data from "../public/data.json";
 const Testimonials = () => {
   return (
     <div id="testimonials" className="md:-ml-40 -mx-5">
-      <div className="md:ml-40">
+      <div className="md:ml-40 ml-5">
         <Title num={4} title="Testimonials" />
       </div>
 
