@@ -16,14 +16,8 @@ const Title: React.FC<TitleProps> = ({ num, title }) => {
       <h2 className="md:text-4xl text-3xl text-text">
         <span className="text-neongreen font-fira">0{num}.</span> {title}
       </h2>
-      <div className="relative md:w-96 w-60">
-        <Image
-          className="!ml-10"
-          src="/line.svg"
-          alt="line"
-          objectFit="contain"
-          layout="fill"
-        />
+      <div className="relative md:w-96 w-72">
+        <Image className="!ml-10" src="/line.svg" alt="line" layout="fill" />
       </div>
     </div>
   );

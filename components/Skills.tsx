@@ -8,11 +8,13 @@ const Skills = () => {
     <div id="skills" className="mt-20">
       <Title num={2} title="Skills" />
 
-      <div className="flex mt-10 space-x-10">
+      <div className="flex mt-10 space-x-10 flex-wrap justify-center md:items-start md:justify-start space-y-4 items-center">
         {data.skills.map((skill, i) => (
           <motion.a
             key={i}
-            className="cursor-pointer relative w-20 h-20"
+            className={`${
+              i === 0 ? "ml-10 md:ml-0" : ""
+            } cursor-pointer relative w-20 h-20`}
             href={skill.link}
             whileHover={{
               scale: [1, 1.3, 1.15],

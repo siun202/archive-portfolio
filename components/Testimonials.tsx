@@ -13,7 +13,7 @@ const Testimonials = () => {
           <div key={i} className="animate-slide mt-5">
             <div
               style={{ transform: `rotate(${i + 1 * 2}deg)` }}
-              className="backdrop-filter backdrop-blur-3xl shadow-2xl border-2 border-darkerblue  bg-white/5  px-4 my-10 pb-3 min-w-[400px] rounded-lg"
+              className="backdrop-filter backdrop-blur-3xl shadow-2xl border-2 border-darkerblue  bg-white/5  px-4 my-10 pb-3 md:min-w-[400px] min-w-[300px] rounded-lg"
             >
               <h2 className="pt-5">{testimonial.value}</h2>
               <h2 className="text-white mt-4">{testimonial.name}</h2>
@@ -25,7 +25,7 @@ const Testimonials = () => {
           <div key={i} className="animate-slide  mt-5">
             <div
               style={{ transform: `rotate(${i + 1 * 2}deg)` }}
-              className="backdrop-filter backdrop-blur-3xl shadow-2xl border-2 border-darkerblue  bg-white/5  px-4 my-10 pb-3 min-w-[400px] rounded-lg"
+              className="backdrop-filter backdrop-blur-3xl shadow-2xl border-2 border-darkerblue  bg-white/5  px-4 my-10 pb-3 md:min-w-[400px] min-w-[300px] rounded-lg"
             >
               <h2 className="pt-5">{testimonial.value}</h2>
               <h2 className="text-white mt-4">{testimonial.name}</h2>

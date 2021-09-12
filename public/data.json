@@ -3,6 +3,7 @@
   "image": "/Me.png",
   "profession": "FullStack web developer",
   "intro": "Focused on creating amazing UIs to solve business problems around the globe. I’m a school kid participating in Hackathons and solving problems to build something cool :D",
+  "about": "I am a fullstack web developer, who loves to design and develop beautiful websites. ",
   "skills": [
     {
       "src": "/logos/firebase.svg",
@@ -33,6 +34,11 @@
       "src": "/logos/typescript.svg",
       "name": "Typescreipt",
       "link": "https://www.typescriptlang.org/"
+    },
+    {
+      "src": "/logos/figma.svg",
+      "name": "Figma",
+      "link": "https://www.figma.com/"
     }
   ],
   "projects": [
