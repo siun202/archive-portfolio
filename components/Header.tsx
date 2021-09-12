@@ -121,13 +121,25 @@ const Header = () => {
         <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
           <Link
             activeClass="active"
+            to="testimonials"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            <span className="text-neongreen">4. </span>Testimonials
+          </Link>{" "}
+        </li>
+        <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
+          <Link
+            activeClass="active"
             to="contact"
             spy={true}
             smooth={true}
             offset={-100}
             duration={500}
           >
-            <span className="text-neongreen">4. </span>Contact
+            <span className="text-neongreen">5. </span>Contact
           </Link>{" "}
         </li>
       </ol>
