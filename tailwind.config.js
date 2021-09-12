@@ -16,7 +16,7 @@ module.exports = {
         fira: ["Fira Code", "monospace"],
       },
       animation: {
-        slide: "slide 50s linear infinite",
+        slide: "slide 100s linear infinite",
       },
       keyframes: {
         slide: {
