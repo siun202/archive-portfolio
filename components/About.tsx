@@ -32,13 +32,12 @@ const About = () => {
           </p>
         </h3>
 
-        <div className="ml-0 md:mt-0 md:ml-20 mt-20">
+        <div className="ml-0 md:mt-0 md:ml-20 mt-20 w-80 h-80 relative rounded-full border-2 border-neongreen">
           <Image
             src={data.image}
             alt={data.name}
             objectFit="contain"
-            width={300}
-            height={300}
+            layout="fill"
           />
         </div>
       </div>
