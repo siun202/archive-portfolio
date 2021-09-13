@@ -44,7 +44,7 @@ const Contact = () => {
         <ContactButtons
           name="Twitter"
           icon="twitter.svg"
-          link="https://www.linkedin.com/in/avneesh-agarwal-78312b20a/"
+          link="https://twitter.com/avneesh0612/"
         />
         <ContactButtons
           name="Hashnode"
