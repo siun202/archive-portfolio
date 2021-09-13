@@ -20,7 +20,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center md:justify-start md:mx-auto space-x-10 mt-10 md:ml-10 min-w-full -ml-6">
+      <div className="flex flex-wrap items-center justify-center md:justify-start md:mx-auto space-x-10 mt-10 md:ml-10 min-w-full -ml-6">
         <ContactButtons
           name="GitHub"
           icon="github.svg"

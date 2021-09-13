@@ -9,7 +9,7 @@ const About = () => {
       id="about"
       className="flex flex-col items-center justify-center md:justify-start md:items-start ml-4 md:ml-0"
     >
-      <div className="ml-14 md:ml-0">
+      <div className="ml- sm:!-ml-0 flex items-center">
         <Title num={1} title="About me" />
       </div>
 

@@ -8,7 +8,7 @@ const Testimonials = () => {
         <Title num={4} title="Testimonials" />
       </div>
 
-      <div className="overflow-hidden flex w-screen md:mx-auto -mb-10 space-x-10 -mr-20 md:-mr-0">
+      <div className="overflow-scroll hidescrollbar flex w-screen md:mx-auto -mb-10 space-x-10 -mr-20 md:-mr-0">
         {data.testimonials.map((testimonial, i) => (
           <div key={i} className="animate-slide mt-5">
             <div

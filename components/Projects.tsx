@@ -22,10 +22,10 @@ const Projects = () => {
             </div>
 
             <div className="md:ml-20 ml-2 md:w-1/3">
-              <h2 className="text-3xl font-semibold text-neongreen">
+              <h2 className="text-3xl font-semibold text-neongreen mt-5">
                 {project.name}
               </h2>
-              <p className="mt-5 text-textdark">{project.about}</p>
+              <p className="sm:mt-5 mt-2 text-textdark">{project.about}</p>
               <div className="flex justify-between mt-3 font-fira">
                 {project.tech.map((title) => {
                   <p>{title}</p>;

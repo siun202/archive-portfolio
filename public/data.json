@@ -11,14 +11,9 @@
       "link": "https://firebase.google.com/"
     },
     {
-      "src": "/logos/github-logo.svg",
+      "src": "/logos/github.svg",
       "name": "GitHub",
       "link": "https://github.com/"
-    },
-    {
-      "src": "/logos/nextjs.svg",
-      "name": "Next.js",
-      "link": "https://nextjs.org/"
     },
     {
       "src": "/logos/react.svg",
