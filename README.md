@@ -14,17 +14,8 @@
 
 ### ✨ [Demo](https://www.avneesh.tech/)
 
-## Install
-
-```sh
-yarn install
-```
-
-## Usage
-
-```sh
-yarn dev
-```
+## Using the template
+To use this template follow the instructions given in [Using guide](https://github.com/avneesh0612/portfolio/blob/main/USING.md).
 
 ## Author
 
