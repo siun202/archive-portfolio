@@ -1,4 +1,4 @@
-## Contributing to Portfolio
+## Contributing to Portfolio Template
 
 We are going to create a pr. You need to know basic git and github commands to make a pr. If you don't know about it, check my [Git and Github crash course](https://blog.avneesh.tech/git-and-github-crash-course "Git and Github crash course")
 
