@@ -7,11 +7,12 @@
 
 @layer components {
   body {
-    @apply bg-bgblue font-sora text-text overflow-x-hidden w-screen;
+    @apply w-screen overflow-x-hidden bg-bgblue font-sora text-text;
   }
 }
 
-body::-webkit-scrollbar {
+body::-webkit-scrollbar,
+.hidescrollbar::-webkit-scrollbar {
   width: 12px;
 }
 
@@ -21,8 +22,15 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 
-body::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track,
+.hidescrollbar::-webkit-scrollbar-track {
   background: #222e50 !important;
+}
+
+.hidescrollbar::-webkit-scrollbar-thumb {
+  background-color: #52dee5;
+  border: 3px solid var(--navy);
+  border-radius: 10px;
 }
 
 .background {
@@ -37,14 +45,4 @@ body::-webkit-scrollbar-track {
 .neon-underline:hover {
   text-decoration: underline;
   text-decoration-color: #52dee5;
-}
-
-.hidescrollbar::-webkit-scrollbar {
-  display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-.hidescrollbar {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
 }
