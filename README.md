@@ -1,29 +1,52 @@
-# Next.js + Tailwind CSS Example
+<h1 align="center">Welcome to portfolio 👋</h1>
+<p>
+  <a href="https://www.npmjs.com/package/portfolio" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/portfolio.svg">
+  </a>
+  <a href="https://github.com/avneesh0612/portfolio/blob/main/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/avneesh0612" target="_blank">
+    <img alt="Twitter: avneesh0612" src="https://img.shields.io/twitter/follow/avneesh0612.svg?style=social" />
+  </a>
+</p>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+> This is Avneesh's portfolio, feel free to use it and contribute to it
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+### 🏠 [Homepage](https://www.avneesh0612.me/)
 
-## Preview
+### ✨ [Demo](https://www.avneesh0612.me/)
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+## Install
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+```sh
+yarn install
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Usage
+
+```sh
+yarn dev
+```
+
+## Author
+
+👤 **Avneesh Agarwal**
+
+* Website:  https://www.avneesh0612.me/
+* Twitter: [@avneesh0612](https://twitter.com/avneesh0612)
+* Github: [@avneesh0612](https://github.com/avneesh0612)
+* LinkedIn: [@avneesh-agarwal-78312b20a](https://linkedin.com/in/avneesh-agarwal-78312b20a)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/avneesh0612/portfolio/issues). You can also take a look at the [contributing guide](https://github.com/avneesh0612/portfolio/blob/main/CONTRIBUTING).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2021 [Avneesh Agarwal](https://github.com/avneesh0612).<br />
+This project is [MIT](https://github.com/avneesh0612/portfolio/blob/main/LICENSE) licensed.
