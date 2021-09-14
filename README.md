@@ -10,9 +10,9 @@
 
 > This is Avneesh's portfolio, feel free to use it and contribute to it
 
-### 🏠 [Homepage](https://www.avneesh0612.me/)
+### 🏠 [Homepage](https://www.avneesh.tech/)
 
-### ✨ [Demo](https://www.avneesh0612.me/)
+### ✨ [Demo](https://www.avneesh.tech/)
 
 ## Install
 
@@ -30,10 +30,10 @@ yarn dev
 
 👤 **Avneesh Agarwal**
 
-* Website:  https://www.avneesh0612.me/
-* Twitter: [@avneesh0612](https://twitter.com/avneesh0612)
-* Github: [@avneesh0612](https://github.com/avneesh0612)
-* LinkedIn: [@avneesh-agarwal-78312b20a](https://linkedin.com/in/avneesh-agarwal-78312b20a)
+- Website: https://www.avneesh.tech/
+- Twitter: [@avneesh0612](https://twitter.com/avneesh0612)
+- Github: [@avneesh0612](https://github.com/avneesh0612)
+- LinkedIn: [@avneesh-agarwal-78312b20a](https://linkedin.com/in/avneesh-agarwal-78312b20a)
 
 ## 🤝 Contributing
 

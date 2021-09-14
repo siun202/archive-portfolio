@@ -14,9 +14,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       <NextSeo
         title="Avneesh Agarwal"
         description="This is Avneesh's portfolio"
-        canonical="https://www.avneesh0612.me/"
+        canonical="https://www.avneesh.tech/"
         openGraph={{
-          url: "https://www.avneesh0612.me/",
+          url: "https://www.avneesh.tech/",
           title: "Avneesh Agarwal",
           description: "Portfolio of Avneesh Agarwal",
           images: [
