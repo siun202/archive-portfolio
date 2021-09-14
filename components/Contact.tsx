@@ -49,7 +49,7 @@ const Contact = () => {
         <ContactButtons
           name="Hashnode"
           icon="hashnode.svg"
-          link="https://avneesh0612.hashnode.dev/"
+          link="https://blog.avneesh.tech/"
         />
       </div>
     </div>
