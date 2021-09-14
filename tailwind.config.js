@@ -16,15 +16,15 @@ module.exports = {
         fira: ["Fira Code", "monospace"],
       },
       animation: {
-        slide: "slide 100s linear infinite",
+        slide: "slide 75s linear infinite",
       },
       keyframes: {
         slide: {
           "0%": {
-            transform: "translate3d(0, 0, 0)",
+            transform: "translateX(0)",
           },
           "100%": {
-            transform: "translate3d(-1500px, 0, 0)",
+            transform: "translateX(-1500px)",
           },
         },
       },
