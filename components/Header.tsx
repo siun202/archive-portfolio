@@ -47,7 +47,7 @@ const Header = () => {
 
   return (
     <nav
-      className={`px-24 fixed bg-bgblue/60 backdrop-filter backdrop-blur-xl w-full top-0 z-50 md:flex justify-between items-center ${
+      className={`px-8 md:px-24 fixed bg-bgblue/60 backdrop-filter backdrop-blur-xl w-full top-0 z-50 md:flex justify-between items-center ${
         handleShow ? "shadow-2xl" : "md:py-3"
       }`}
     >
@@ -70,7 +70,7 @@ const Header = () => {
       </Link>
 
       <motion.nav
-        className="absolute left-0 w-full top-2 md:hidden"
+        className="absolute left-0 w-full top-0 md:hidden"
         initial={false}
         animate={isOpen ? "open" : "closed"}
         custom={height}
