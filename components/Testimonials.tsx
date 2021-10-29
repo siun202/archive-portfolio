@@ -10,7 +10,7 @@ const Testimonials = () => {
 
       <div className="flex w-screen -mb-10 -mr-20 space-x-10 overflow-scroll hidescrollbar md:mx-auto md:-mr-0">
         {data.testimonials.map((testimonial, i) => (
-          <div key={i} className="mt-5">
+          <div key={i} className="mt-5 px-16">
             <div
               style={{ transform: `rotate(${i + 1 * 2}deg)` }}
               className="backdrop-filter backdrop-blur-3xl shadow-2xl border-2 border-darkerblue  bg-white/5  px-4 my-10 pb-3 md:min-w-[400px] min-w-[300px] rounded-lg"
