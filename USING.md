@@ -31,7 +31,9 @@ yarn dev # npm
 ```
 
 ## Making changes
-To add your details go to the data.json file in and replace my data with yours.
+To add your details go to the data.json file in the public folder and replace my data with yours.
+
+To customize the colors go to `tailwind.config.js` and replace the existing colors with your brand colors.
 
 After you have added all your data. Push the code to GitHub with these commands
 
