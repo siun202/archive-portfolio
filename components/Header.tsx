@@ -86,6 +86,7 @@ const Header = () => {
         smooth={true}
         offset={-100}
         duration={500}
+        href="intro"
       >
         <Image
           className="cursor-pointer"
