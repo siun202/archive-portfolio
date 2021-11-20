@@ -5,8 +5,8 @@ import Title from "./Title";
 
 const Skills = () => {
   return (
-    <div id="skills" className="mt-20">
-      <Title num={2} title="Skills" />
+    <div id="skills" className="mt-20 md:ml-20">
+      <Title num={3} title="Skills" />
 
       <div className="flex mt-10 md:space-x-10 space-x-6 -ml-10 sm:-ml-0 flex-wrap justify-center md:items-start md:justify-start space-y-4 items-center">
         {data.skills.map((skill, i) => (

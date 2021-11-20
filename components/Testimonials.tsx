@@ -3,12 +3,10 @@ import data from "../public/data.json";
 
 const Testimonials = () => {
   return (
-    <div id="testimonials" className="-mx-5 md:-ml-40">
-      <div className="ml-5 md:ml-40">
-        <Title num={1} title="Testimonials" />
-      </div>
+    <div id="testimonials" className="md:ml-20">
+      <Title num={1} title="Testimonials" />
 
-      <div className="flex w-screen -mb-10 -mr-20 space-x-10 overflow-scroll hidescrollbar md:mx-auto md:-mr-0">
+      <div className="flex w-screen -mb-10 space-x-10 overflow-scroll hidescrollbar md:mx-auto md:-mr-0">
         {data.testimonials.map((testimonial, i) => (
           <div key={i} className="mt-5 px-16">
             <div
@@ -20,7 +18,7 @@ const Testimonials = () => {
               <h2 className="text-white">{testimonial?.relation}</h2>
             </div>
           </div>
-        ))}{" "}
+        ))}
       </div>
     </div>
   );

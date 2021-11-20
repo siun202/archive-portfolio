@@ -7,10 +7,10 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="flex flex-col items-center z-50 justify-center w-screen mx-auto mt-20"
+      className="flex flex-col items-center z-50 justify-center w-screen mt-20 -ml-6 md:ml-0"
     >
-      <div className="flex items-center mx-auto mt-10 space-x-5 md:space-x-10 md:ml-10">
-        <div className="relative w-20 h-1 ml-0 md:w-60 md:ml-40">
+      <div className="flex items-center mt-10 space-x-5">
+        <div className="relative w-20 h-1 md:w-60">
           <Image src="/line.svg" alt="line" layout="fill" />
         </div>
         <h2 className="text-xl text-text md:text-4xl whitespace-nowrap">
@@ -21,7 +21,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="flex flex-wrap items-center justify-center min-w-full mt-10 -ml-6 space-x-10 md:justify-start md:mx-auto md:ml-10">
+      <div className="flex flex-wrap items-center ml-8 sm:ml-auto justify-center mx-auto">
         {data.links.map((link, i) => (
           <div key={i}>
             <ContactButtons

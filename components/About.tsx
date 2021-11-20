@@ -7,10 +7,10 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col items-center justify-center md:justify-start md:items-start ml-4 md:ml-0"
+      className="flex flex-col items-center justify-center md:justify-start md:items-start mt-20 md:ml-20"
     >
-      <div className="ml- sm:!-ml-0 flex items-center">
-        <Title num={1} title="About me" />
+      <div className="sm:!-ml-0 flex items-center">
+        <Title num={2} title="About me" />
       </div>
 
       <div className="flex flex-col md:flex-row items-center md:justify-start md:items-start justify-center">
