@@ -23,74 +23,59 @@ const variants = {
   },
 };
 
+const headerItems = [
+  {
+    name: "Testimonials",
+    href: "testimonials",
+    number: 1,
+  },
+  {
+    name: "About",
+    href: "about",
+    number: 2,
+  },
+  {
+    name: "Skills",
+    href: "skills",
+    number: 3,
+  },
+  {
+    name: "Work",
+    href: "work",
+    number: 4,
+  },
+  {
+    name: "Contact",
+    href: "contact",
+    number: 5,
+  },
+];
+
 const MenuItem: React.FC = () => {
   return (
     <motion.ul
       className="list-none flex-col mb-5 pt-5 flex pl-10 bg-bgblue min-h-screen mt-0 -mr-10 space-y-5 backdrop-blur-md"
       variants={variants}
     >
-      <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
-        <Link
-          activeClass="active"
-          to="testimonials"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
+      {headerItems.map((item, i) => (
+        <li
+          key={i}
+          className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen"
         >
-          <span className="text-neongreen">1. </span>Testimonials
-        </Link>
-      </li>
-      <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
-        <Link
-          activeClass="active"
-          to="about"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
-        >
-          <span className="text-neongreen">2. </span> About
-        </Link>
-      </li>
-
-      <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
-        <Link
-          activeClass="active"
-          to="skills"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
-        >
-          <span className="text-neongreen">3. </span>Skills
-        </Link>
-      </li>
-      <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
-        <Link
-          activeClass="active"
-          to="work"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
-        >
-          <span className="text-neongreen">4. </span>Work
-        </Link>
-      </li>
-
-      <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
-        <Link
-          activeClass="active"
-          to="contact"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
-        >
-          <span className="text-neongreen">5. </span>Contact
-        </Link>
-      </li>
+          <Link
+            activeClass="active"
+            to={item.href}
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            href={item.href}
+          >
+            <span className="text-neongreen">{item.number}. </span>
+            {item.name}
+          </Link>
+        </li>
+      ))}
     </motion.ul>
   );
 };

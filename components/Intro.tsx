@@ -30,6 +30,7 @@ const Intro = () => {
         smooth={true}
         offset={-100}
         duration={500}
+        href="contact"
       >
         <button className="py-2 px-5 !mt-10 hover:bg-neongreen/90 hover:border-neongreen/90 hover:backdrop-blur-lg hover:text-white duration-100 border-neongreen border-2 text-neongreen rounded-lg">
           Reach out to me!
