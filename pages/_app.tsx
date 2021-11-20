@@ -3,6 +3,7 @@ import { AppProps } from "next/app";
 import "../styles/globals.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import data from "../public/data.json";
 
 function MyApp({ Component, pageProps }: AppProps) {
   if (typeof window === "object") {
@@ -12,22 +13,22 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <NextSeo
-        title="Avneesh Agarwal"
-        description="This is Avneesh's portfolio"
+        title={data.name}
+        description={data.about}
         canonical="https://www.avneesh.tech/"
         openGraph={{
           url: "https://www.avneesh.tech/",
-          title: "Avneesh Agarwal",
-          description: "Portfolio of Avneesh Agarwal",
+          title: data.name,
+          description: data.about,
           images: [
             {
               url: "/seo-image.png",
               width: 800,
               height: 420,
-              alt: "Avneesh",
+              alt: data.name,
             },
           ],
-          site_name: "Avneesh",
+          site_name: data.name,
         }}
         twitter={{
           handle: "@avneesh0612",
