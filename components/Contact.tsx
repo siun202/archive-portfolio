@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="flex flex-col items-center justify-center w-screen mx-auto mt-20"
+      className="flex flex-col items-center z-50 justify-center w-screen mx-auto mt-20"
     >
       <div className="flex items-center mx-auto mt-10 space-x-5 md:space-x-10 md:ml-10">
         <div className="relative w-20 h-1 ml-0 md:w-60 md:ml-40">
@@ -31,8 +31,6 @@ const Contact = () => {
             />
           </div>
         ))}
-       
-    
       </div>
     </div>
   );

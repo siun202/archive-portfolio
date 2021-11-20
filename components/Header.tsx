@@ -85,15 +85,28 @@ const Header = () => {
         <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
           <Link
             activeClass="active"
+            to="testimonials"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            <span className="text-neongreen">1. </span>Testimonials
+          </Link>
+        </li>
+        <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
+          <Link
+            activeClass="active"
             to="about"
             spy={true}
             smooth={true}
             offset={-100}
             duration={500}
           >
-            <span className="text-neongreen">1. </span> About
+            <span className="text-neongreen">2. </span> About
           </Link>
         </li>
+
         <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
           <Link
             activeClass="active"
@@ -103,9 +116,9 @@ const Header = () => {
             offset={-100}
             duration={500}
           >
-            <span className="text-neongreen">2. </span>Skills
+            <span className="text-neongreen">3. </span>Skills
           </Link>
-        </li>{" "}
+        </li>
         <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
           <Link
             activeClass="active"
@@ -115,21 +128,10 @@ const Header = () => {
             offset={-100}
             duration={500}
           >
-            <span className="text-neongreen">3. </span>Work
+            <span className="text-neongreen">4. </span>Work
           </Link>
         </li>
-        <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
-          <Link
-            activeClass="active"
-            to="testimonials"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            <span className="text-neongreen">4. </span>Testimonials
-          </Link>{" "}
-        </li>
+
         <li className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen">
           <Link
             activeClass="active"
@@ -140,7 +142,7 @@ const Header = () => {
             duration={500}
           >
             <span className="text-neongreen">5. </span>Contact
-          </Link>{" "}
+          </Link>
         </li>
       </ol>
     </nav>

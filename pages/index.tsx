@@ -22,10 +22,10 @@ export default function Home() {
 
       <div className="md:ml-40 relative ml-5 mb-10">
         <Intro />
+        <Testimonials />
         <About />
         <Skills />
         <Projects />
-        <Testimonials />
         <Contact />
       </div>
     </div>

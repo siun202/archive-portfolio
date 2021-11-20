@@ -5,7 +5,7 @@ const Testimonials = () => {
   return (
     <div id="testimonials" className="-mx-5 md:-ml-40">
       <div className="ml-5 md:ml-40">
-        <Title num={4} title="Testimonials" />
+        <Title num={1} title="Testimonials" />
       </div>
 
       <div className="flex w-screen -mb-10 -mr-20 space-x-10 overflow-scroll hidescrollbar md:mx-auto md:-mr-0">
