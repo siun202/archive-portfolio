@@ -5,6 +5,7 @@ import { Link } from "react-scroll";
 import { useDimensions } from "../hooks/useDimensions";
 import MenuToggle from "./header/MenuToggle";
 import { Navigation } from "./header/Navigation";
+import Logo from "./Logo";
 
 const sidebar = {
   open: (height = 1000) => ({
@@ -88,14 +89,7 @@ const Header = () => {
         duration={500}
         href="intro"
       >
-        <Image
-          className="cursor-pointer"
-          width={75}
-          height={75}
-          objectFit="contain"
-          src="/logo.svg"
-          alt="logo"
-        />
+        <Logo className="cursor-pointer" />
       </Link>
 
       <motion.nav
