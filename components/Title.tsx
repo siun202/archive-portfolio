@@ -1,4 +1,5 @@
 import Image from "next/image";
+import LineSvg from "./Line-svg";
 
 interface TitleProps {
   num: number;
@@ -16,9 +17,7 @@ const Title: React.FC<TitleProps> = ({ num, title }) => {
       <h2 className="md:text-4xl text-3xl text-text">
         <span className="text-neongreen font-fira">0{num}.</span> {title}
       </h2>
-      <div className="relative md:w-96 w-72">
-        <Image className="!ml-10" src="/line.svg" alt="line" layout="fill" />
-      </div>
+      <LineSvg className="relative md:w-96 w-72 !ml-10" />
     </div>
   );
 };
