@@ -48,36 +48,32 @@ const Header = () => {
 
   const headerItems = [
     {
-      name: "Testimonials",
-      href: "testimonials",
-      number: 1,
-    },
-    {
       name: "About",
       href: "about",
-      number: 2,
-    },
-    {
-      name: "Skills",
-      href: "skills",
-      number: 3,
     },
     {
       name: "Work",
       href: "work",
-      number: 4,
+    },
+    {
+      name: "Testimonials",
+      href: "testimonials",
+    },
+
+    {
+      name: "Skills",
+      href: "skills",
     },
     {
       name: "Contact",
       href: "contact",
-      number: 5,
     },
   ];
 
   return (
     <nav
-      className={`px-8 md:px-24 fixed bg-bgblue/60 backdrop-filter backdrop-blur-xl w-full top-0 z-50 md:flex justify-between items-center ${
-        handleShow ? "shadow-2xl" : "md:py-3"
+      className={`px-8 md:px-24 fixed md:py-3 bg-bgblue/60 backdrop-filter backdrop-blur-xl w-full top-0 z-50 md:flex justify-between items-center ${
+        handleShow ? "shadow-2xl" : ""
       }`}
     >
       <Link
@@ -93,7 +89,7 @@ const Header = () => {
       </Link>
 
       <motion.nav
-        className="absolute left-0 w-full top-0 md:hidden"
+        className="absolute top-0 left-0 w-full md:hidden"
         initial={false}
         animate={isOpen ? "open" : "closed"}
         custom={height}
@@ -119,7 +115,7 @@ const Header = () => {
               duration={500}
               href={item.href}
             >
-              <span className="text-neongreen">{item.number}. </span>
+              <span className="text-neongreen">{i + 1}. </span>
               {item.name}
             </Link>
           </li>

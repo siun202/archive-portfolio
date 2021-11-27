@@ -22,15 +22,16 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 
-body::-webkit-scrollbar-track,
-.hidescrollbar::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
   background: #222e50 !important;
 }
 
 .hidescrollbar::-webkit-scrollbar-thumb {
-  background-color: #52dee5;
-  border: 3px solid var(--navy);
-  border-radius: 10px;
+  display: none;
+}
+
+.hidescrollbar::-webkit-scrollbar-track {
+  display: none;
 }
 
 .background {

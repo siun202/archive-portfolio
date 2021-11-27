@@ -25,36 +25,32 @@ const variants = {
 
 const headerItems = [
   {
-    name: "Testimonials",
-    href: "testimonials",
-    number: 1,
-  },
-  {
     name: "About",
     href: "about",
-    number: 2,
-  },
-  {
-    name: "Skills",
-    href: "skills",
-    number: 3,
   },
   {
     name: "Work",
     href: "work",
-    number: 4,
+  },
+  {
+    name: "Testimonials",
+    href: "testimonials",
+  },
+
+  {
+    name: "Skills",
+    href: "skills",
   },
   {
     name: "Contact",
     href: "contact",
-    number: 5,
   },
 ];
 
 const MenuItem: React.FC = () => {
   return (
     <motion.ul
-      className="list-none flex-col mb-5 pt-5 flex pl-10 bg-bgblue min-h-screen mt-0 -mr-10 space-y-5 backdrop-blur-md"
+      className="flex flex-col min-h-screen pt-5 pl-10 mt-0 mb-5 -mr-10 space-y-5 list-none bg-bgblue backdrop-blur-md"
       variants={variants}
     >
       {headerItems.map((item, i) => (
@@ -71,7 +67,7 @@ const MenuItem: React.FC = () => {
             duration={500}
             href={item.href}
           >
-            <span className="text-neongreen">{item.number}. </span>
+            <span className="text-neongreen">{i + 1}. </span>
             {item.name}
           </Link>
         </li>

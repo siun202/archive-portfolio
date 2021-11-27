@@ -20,12 +20,12 @@ export default function Home() {
         <Header />
       </div>
 
-      <div className="relative ml-5 mb-10">
+      <div className="relative mb-10 ml-5">
         <Intro />
-        <Testimonials />
         <About />
-        <Skills />
+        <Testimonials />
         <Projects />
+        <Skills />
         <Contact />
       </div>
     </div>

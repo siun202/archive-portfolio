@@ -6,7 +6,7 @@ import Title from "./Title";
 const Projects = () => {
   return (
     <div id="work" className="md:ml-20">
-      <Title num={4} title="Some Things I’ve Built" />
+      <Title num={3} title="Some Things I’ve Built" />
 
       <div className="flex flex-col">
         {data.projects.map((project, i) => (
@@ -21,23 +21,23 @@ const Projects = () => {
               />
             </div>
 
-            <div className="md:ml-20 ml-2 md:w-1/3">
-              <h2 className="text-3xl font-semibold text-neongreen mt-5">
+            <div className="ml-2 md:ml-20 md:w-1/3">
+              <h2 className="mt-5 text-3xl font-semibold text-neongreen">
                 {project.name}
               </h2>
-              <p className="sm:mt-5 mt-2 text-textdark">{project.about}</p>
+              <p className="mt-2 sm:mt-5 text-textdark">{project.about}</p>
               <div className="flex justify-between mt-3 font-fira">
                 {project.tech.map((title) => {
                   <p>{title}</p>;
                 })}
               </div>
 
-              <div className="flex space-x-4 mt-4">
+              <div className="flex mt-4 space-x-4">
                 <a
                   target="_blank"
                   rel="noreferrer"
                   href={project.links.GitHub}
-                  className="py-2 px-5 hover:bg-neongreen/90 flex items-center hover:border-neongreen/90 hover:backdrop-blur-lg duration-100 border-neongreen border-2 stroke-current group-hover:text-white hover:text-white text-neongreen rounded-lg fill-current"
+                  className="flex items-center px-5 py-2 duration-100 border-2 rounded-lg fill-current stroke-current hover:bg-neongreen/90 hover:border-neongreen/90 hover:backdrop-blur-lg border-neongreen group-hover:text-white hover:text-white text-neongreen"
                 >
                   <svg
                     width="24"
@@ -67,7 +67,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                   href={project.links.Live}
-                  className="py-2 px-5 hover:bg-neongreen/90 flex items-center hover:border-neongreen/90 hover:backdrop-blur-lg duration-100 border-neongreen border-2 stroke-current group-hover:text-white hover:text-white text-neongreen rounded-lg fill-current"
+                  className="flex items-center px-5 py-2 duration-100 border-2 rounded-lg fill-current stroke-current hover:bg-neongreen/90 hover:border-neongreen/90 hover:backdrop-blur-lg border-neongreen group-hover:text-white hover:text-white text-neongreen"
                 >
                   <svg
                     width="24"
