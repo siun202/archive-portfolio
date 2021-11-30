@@ -10,6 +10,9 @@
 
 > This is Avneesh's portfolio, feel free to use it and contribute to it
 
+![image](https://user-images.githubusercontent.com/76690419/144019401-29bbaf04-2f18-4a3a-b190-108bb5d43b1a.png)
+
+
 ### 🏠 [Homepage](https://www.avneesh.tech/)
 
 ### ✨ [Demo](https://www.avneesh.tech/)
@@ -24,7 +27,7 @@ To use this template follow the instructions given in [Using guide](https://gith
 - Website: https://www.avneesh.tech/
 - Twitter: [@avneesh0612](https://twitter.com/avneesh0612)
 - Github: [@avneesh0612](https://github.com/avneesh0612)
-- LinkedIn: [@avneesh-agarwal-78312b20a](https://linkedin.com/in/avneesh-agarwal-78312b20a)
+- LinkedIn: [@avneesh0612](https://linkedin.com/in/avneesh0612)
 
 ## 🤝 Contributing
 
