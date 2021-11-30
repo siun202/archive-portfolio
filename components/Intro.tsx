@@ -20,7 +20,7 @@ const Intro = () => {
         I build awesome websites!
       </h2>
       <p className="w-4/5 md:w-3/5 text-textdark">
-        I&rsquo;m a <span className="text-neongreen">{data.profession}.</span>
+        I&rsquo;m a <span className="text-neongreen">{data.profession}. </span>
         {data.intro}
       </p>
       <Link
