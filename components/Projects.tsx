@@ -10,7 +10,10 @@ const Projects = () => {
 
       <div className="flex flex-col">
         {data.projects.map((project, i) => (
-          <div key={i} className="flex flex-col items-center mt-10 md:flex-row">
+          <article
+            key={i}
+            className="flex flex-col items-center mt-10 md:flex-row"
+          >
             <div className="relative w-[450px] h-[250px] rounded-lg">
               <Image
                 src={project.image}
@@ -22,9 +25,9 @@ const Projects = () => {
             </div>
 
             <div className="ml-2 md:ml-20 md:w-1/3">
-              <h2 className="mt-5 text-3xl font-semibold text-neongreen">
+              <h3 className="mt-5 text-3xl font-semibold text-neongreen">
                 {project.name}
-              </h2>
+              </h3>
               <p className="mt-2 sm:mt-5 text-textdark">{project.about}</p>
               <div className="flex justify-between mt-3 font-fira">
                 {project.tech.map((title) => {
@@ -101,7 +104,7 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </article>
         ))}
       </div>
     </div>

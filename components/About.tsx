@@ -14,7 +14,7 @@ const About = () => {
       </div>
 
       <div className="flex flex-col items-center justify-center md:flex-row md:justify-start md:items-start">
-        <h3 className="mt-10 text-xl text-textdark md:w-1/2">{data.about}</h3>
+        <p className="mt-10 text-xl text-textdark md:w-1/2">{data.about}</p>
 
         <div className="relative mx-auto mt-20 ml-0 border-2 rounded-full md:mt-0 md:ml-20 w-80 h-80 border-neongreen">
           <Image

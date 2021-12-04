@@ -20,14 +20,14 @@ export default function Home() {
         <Header />
       </div>
 
-      <div className="relative mb-10 ml-5">
+      <main className="relative mb-10 ml-5">
         <Intro />
         <About />
         <Testimonials />
         <Projects />
         <Skills />
         <Contact />
-      </div>
+      </main>
     </div>
   );
 }
