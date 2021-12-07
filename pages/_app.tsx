@@ -14,6 +14,8 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <NextSeo
         title={data.name}
+        titleTemplate={data.name}
+        defaultTitle={data.name}
         description={data.about}
         canonical="https://www.avneesh.tech/"
         openGraph={{
@@ -28,7 +30,12 @@ function MyApp({ Component, pageProps }: AppProps) {
               alt: data.name,
             },
           ],
-          site_name: data.name,
+          profile: {
+            firstName: "Avneesh",
+            gender: "Male",
+            lastName: "Agarwal",
+            username: "avneesh0612",
+          },
         }}
         twitter={{
           handle: "@avneesh0612",

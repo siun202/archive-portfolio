@@ -12,7 +12,6 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Portfolio</title>
         <link rel="icon" href="/logo.svg" />
       </Head>
 
