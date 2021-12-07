@@ -1,6 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
 import Title from "./Title";
 import data from "../public/data.json";
+import Image from "next/image";
 
 const Testimonials = () => {
   return (
@@ -18,11 +18,16 @@ const Testimonials = () => {
                 rel="noreferrer"
                 className="flex items-center space-x-4"
               >
-                <img
-                  src={testimonial.pfp}
-                  alt={testimonial.name}
-                  className="w-12 h-12 mt-4 rounded-full"
-                />
+                <div className="relative w-12 h-12 mt-4 rounded-full">
+                  <Image
+                    width={250}
+                    height={250}
+                    src={testimonial.pfp}
+                    alt={testimonial.name}
+                    className="w-12 h-12 mt-4 rounded-full"
+                    objectFit="contain"
+                  />
+                </div>
                 <div className="flex flex-col justify-center">
                   <h2 className="mt-4 text-white">{testimonial.name}</h2>
                   <h2 className="text-white">{testimonial?.relation}</h2>

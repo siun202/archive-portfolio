@@ -84,6 +84,7 @@ const Header = () => {
         offset={-100}
         duration={500}
         href="intro"
+        title="Avneesh"
       >
         <Logo className="cursor-pointer" />
       </Link>

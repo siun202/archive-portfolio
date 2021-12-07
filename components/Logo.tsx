@@ -12,6 +12,7 @@ const Logo: React.FC<LogoType> = ({ className }) => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
+      <title>Avneesh Agarwal</title>
       <path
         fillRule="evenodd"
         clipRule="evenodd"
