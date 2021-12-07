@@ -12,6 +12,7 @@ export default function Home() {
   return (
     <div>
       <Head>
+        <meta name="keywords" content="Avneesh, Agarwal, Avneesh Agarwal, web dev, blogger, content creator" />
         <link rel="icon" href="/logo.svg" />
       </Head>
 

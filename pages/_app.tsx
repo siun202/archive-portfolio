@@ -42,7 +42,6 @@ function MyApp({ Component, pageProps }: AppProps) {
           site: "@avneesh0612",
           cardType: "summary_large_image",
         }}
-        keywords="Avneesh, Agarwal, Avneesh Agarwal, Blog, web developer,"
       />
       <Component {...pageProps} />
     </>
