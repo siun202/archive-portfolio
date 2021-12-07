@@ -4,6 +4,7 @@ import "../styles/globals.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import data from "../public/data.json";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps) {
   if (typeof window === "object") {
@@ -24,7 +25,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           description: data.about,
           images: [
             {
-              url: "/seo-image.png",
+              url: "/og-image.png",
               width: 800,
               height: 420,
               alt: data.name,
@@ -43,6 +44,14 @@ function MyApp({ Component, pageProps }: AppProps) {
           cardType: "summary_large_image",
         }}
       />
+      <Head>
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="RSS"
+          href="https://www.avneesh.tech/rss.xml"
+        />
+      </Head>
       <Component {...pageProps} />
     </>
   );
