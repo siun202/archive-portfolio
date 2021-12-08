@@ -51,7 +51,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           title="RSS"
           href="https://www.avneesh.tech/rss.xml"
         />
-        <meta http-equiv="Content-Security-Policy" content="default-src https://www.avneesh.tech"/>
+        <meta httpEquiv="Content-Security-Policy" content="default-src https://www.avneesh.tech"/>
       </Head>
       <Component {...pageProps} />
     </>
