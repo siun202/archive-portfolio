@@ -7,7 +7,7 @@ const Testimonials = () => {
     <div id="testimonials" className="mt-10 md:ml-20">
       <Title num={2} title="Testimonials" />
 
-      <div className="flex w-screen -mb-10 space-x-10 overflow-scroll hidescrollbar md:mx-auto md:-mr-0">
+      <div className="flex w-screen pr-20 -mb-10 space-x-10 overflow-scroll hidescrollbar md:mx-auto md:-mr-0">
         {data.testimonials.map((testimonial, i) => (
           <div key={i} className="px-16 mt-5">
             <div className="backdrop-filter rotate-3 hover:rotate-0 cursor-pointer duration-100 backdrop-blur-3xl shadow-2xl border-2 border-darkerblue  bg-white/5  px-4 my-10 pb-3 md:min-w-[400px] min-w-[300px] rounded-lg">
