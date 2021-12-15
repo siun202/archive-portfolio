@@ -29,14 +29,13 @@ const headerItems = [
     href: "about",
   },
   {
-    name: "Work",
-    href: "work",
-  },
-  {
     name: "Testimonials",
     href: "testimonials",
   },
-
+  {
+    name: "Work",
+    href: "work",
+  },
   {
     name: "Skills",
     href: "skills",
