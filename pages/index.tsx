@@ -1,16 +1,23 @@
-import { GetStaticProps } from "next";
+import { GetServerSideProps } from "next";
 import Head from "next/head";
 import React from "react";
 import About from "../components/About";
+import Blog from "../components/Blog";
 import Contact from "../components/Contact";
 import Header from "../components/Header";
 import Intro from "../components/Intro";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import Testimonials from "../components/Testimonials";
+import getPosts from "../utils/getPosts";
 import generateRSSFeed from "../utils/rss-utils";
+import { PostType } from "../types/PostType";
 
-export default function Home() {
+interface Props {
+  Posts: [PostType];
+}
+
+const Home: React.FC<Props> = ({ Posts }) => {
   return (
     <div>
       <Head>
@@ -37,16 +44,23 @@ export default function Home() {
         <Testimonials />
         <Projects />
         <Skills />
+        <Blog Posts={Posts} />
         <Contact />
       </main>
     </div>
   );
-}
+};
 
-export const getStaticProps: GetStaticProps = async () => {
-  // TODO: find a better way to do these "build steps"
-  // generate the rss feed to /feed.xml
+export default Home;
+
+export const getServerSideProps: GetServerSideProps = async () => {
   if (process.env.NODE_ENV === "production") generateRSSFeed();
 
-  return { props: {} };
+  const Posts = await getPosts("avneesh0612");
+
+  return {
+    props: {
+      Posts: Posts.publication.posts,
+    },
+  };
 };

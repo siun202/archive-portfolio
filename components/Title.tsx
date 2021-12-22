@@ -1,4 +1,3 @@
-import Image from "next/image";
 import LineSvg from "./Line-svg";
 
 interface TitleProps {
@@ -12,7 +11,7 @@ const Title: React.FC<TitleProps> = ({ num, title }) => {
       data-aos="fade-right"
       data-aos-delay="50"
       data-aos-duration="1000"
-      className="flex mt-20 w-full"
+      className="flex mt-20 w-full items-center"
     >
       <h2 className="md:text-4xl text-3xl text-text">
         <span className="text-neongreen font-fira">0{num}.</span> {title}
