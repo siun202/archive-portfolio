@@ -10,7 +10,6 @@ import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import Testimonials from "../components/Testimonials";
 import getPosts from "../utils/getPosts";
-import generateRSSFeed from "../utils/rss-utils";
 import { PostType } from "../types/PostType";
 
 interface Props {
@@ -54,7 +53,6 @@ const Home: React.FC<Props> = ({ Posts }) => {
 export default Home;
 
 export const getServerSideProps: GetServerSideProps = async () => {
-
   const Posts = await getPosts("avneesh0612");
 
   return {
