@@ -54,7 +54,6 @@ const Home: React.FC<Props> = ({ Posts }) => {
 export default Home;
 
 export const getServerSideProps: GetServerSideProps = async () => {
-  if (process.env.NODE_ENV === "production") generateRSSFeed();
 
   const Posts = await getPosts("avneesh0612");
 
