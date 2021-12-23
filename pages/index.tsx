@@ -1,4 +1,4 @@
-import { GetServerSideProps } from "next";
+import { GetStaticProps } from "next";
 import Head from "next/head";
 import React from "react";
 import About from "../components/About";
@@ -52,12 +52,13 @@ const Home: React.FC<Props> = ({ Posts }) => {
 
 export default Home;
 
-export const getServerSideProps: GetServerSideProps = async () => {
+export const getStaticProps: GetStaticProps = async () => {
   const Posts = await getPosts("avneesh0612");
 
   return {
     props: {
       Posts: Posts.publication.posts,
     },
+    revalidate: 600,
   };
 };
