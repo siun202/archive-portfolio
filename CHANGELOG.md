@@ -1,4 +1,13 @@
-# 0.1.0 (2022-01-08)
+# [0.2.0](https://github.com/avneesh0612/portfolio/compare/v0.1.0...v0.2.0) (2022-01-08)
+
+
+### Features
+
+* initialize auto changelog ([98681ec](https://github.com/avneesh0612/portfolio/commit/98681ec53df4605b3f23a49c75413b8db304ef17))
+
+
+
+# [0.1.0](https://github.com/avneesh0612/portfolio/compare/07bacc25b090b5c5b69587f45cdc7ef8d516771b...v0.1.0) (2022-01-08)
 
 
 ### Bug Fixes
