@@ -1,3 +1,12 @@
+## [1.2.1](https://github.com/avneesh0612/portfolio/compare/v1.2.0...v1.2.1) (2022-01-08)
+
+
+### Bug Fixes
+
+* remove unused files :P ([93a8e95](https://github.com/avneesh0612/portfolio/commit/93a8e95cb24eb264a29e76bd1309e0275b6e3569))
+
+
+
 # [1.2.0](https://github.com/avneesh0612/portfolio/compare/v1.1.0...v1.2.0) (2022-01-08)
 
 
