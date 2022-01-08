@@ -13,9 +13,7 @@
     "release:patch": "standard-version --release-as patch",
     "release:major": "standard-version --release-as major",
     "format": "prettier --write \"{components,content,docs,pages,styles,utils}/**/*.{js,jsx,ts,tsx,css,scss,json,yaml,md}\"",
-    "format:check": "prettier --check \"{components,content,docs,pages,styles,utils}/**/*.{js,jsx,ts,tsx,css,scss,json,yaml,md}\"",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "format:check": "prettier --check \"{components,content,docs,pages,styles,utils}/**/*.{js,jsx,ts,tsx,css,scss,json,yaml,md}\""
   },
   "dependencies": {
     "aos": "^3.0.0-beta.6",
@@ -35,7 +33,6 @@
     "@types/react": "^17.0.38",
     "@types/react-scroll": "^1.8.3",
     "autoprefixer": "^10.4.2",
-    "cypress": "^9.2.0",
     "eslint": "^8.6.0",
     "eslint-config-next": "^12.0.7",
     "eslint-config-prettier": "^8.3.0",
