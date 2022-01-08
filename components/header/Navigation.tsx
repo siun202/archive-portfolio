@@ -20,4 +20,4 @@ const Navigation = () => (
   </motion.ul>
 );
 
-export default Navigation
+export default Navigation;
