@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/avneesh0612/portfolio/compare/v1.1.0...v1.2.0) (2022-01-08)
+
+
+### Features
+
+* added a 404 page ([1060459](https://github.com/avneesh0612/portfolio/commit/10604598b0be70ad322b66384b79b6c40efeb570))
+
+
+
 # [1.1.0](https://github.com/avneesh0612/portfolio/compare/v0.2.0...v1.1.0) (2022-01-08)
 
 
