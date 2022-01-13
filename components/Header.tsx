@@ -3,8 +3,6 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-scroll";
 import { useDimensions } from "../hooks/useDimensions";
-// import MenuToggle from "./header/MenuToggle";
-// import { Navigation } from "./header/Navigation";
 import Logo from "./Logo";
 import { MenuToggle, Navigation } from "./header";
 
