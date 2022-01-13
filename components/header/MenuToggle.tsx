@@ -34,10 +34,10 @@ const Path = (props: pathProps) => (
 
 const MenuToggle: React.FC<MenuToggleProps> = ({ toggle }) => (
   <button
-    className="absolute flex items-center justify-between px-3 py-3 border-none rounded-full outline-none cursor-pointer select-none fill-current text-neongreen bg-neongreen top-6 md:top-4 right-7"
+    className="absolute flex items-center justify-center w-12 h-12 border-none rounded-full outline-none cursor-pointer select-none fill-current text-neongreen bg-neongreen top-6 md:top-4 right-7"
     onClick={toggle}
   >
-    <svg width="23" height="23" viewBox="0 0 23 23">
+    <svg width="23" height="21" viewBox="0 0 23 21">
       <title>hamburger-icon</title>
       <Path
         variants={{
