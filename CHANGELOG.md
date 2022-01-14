@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/avneesh0612/portfolio/compare/v1.2.2...v1.3.0) (2022-01-14)
+
+
+### Features
+
+* added google analytics ([ce861ad](https://github.com/avneesh0612/portfolio/commit/ce861ada8b76474979fd5fb866bee55d7b9acc7f))
+
+
+
 ## [1.2.2](https://github.com/avneesh0612/portfolio/compare/v1.2.1...v1.2.2) (2022-01-13)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * release v1 ([f50fdf8](https://github.com/avneesh0612/portfolio/commit/f50fdf8418f434975cc078824de3c5b054e2d44c))
-
-
-
-# [0.2.0](https://github.com/avneesh0612/portfolio/compare/v0.1.0...v0.2.0) (2022-01-08)
-
-
-### Features
-
-* initialize auto changelog ([98681ec](https://github.com/avneesh0612/portfolio/commit/98681ec53df4605b3f23a49c75413b8db304ef17))
 
 
 
