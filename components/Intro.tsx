@@ -23,19 +23,35 @@ const Intro = () => {
         I&rsquo;m a <span className="text-neongreen">{data.profession}. </span>
         {data.intro}
       </p>
-      <Link
-        activeClass="active"
-        to="contact"
-        spy={true}
-        smooth={true}
-        offset={-100}
-        duration={500}
-        href="contact"
-      >
-        <button className="py-2 px-5 !mt-10 hover:bg-neongreen/90 hover:border-neongreen/90 hover:backdrop-blur-lg hover:text-white duration-100 border-neongreen border-2 text-neongreen rounded-lg">
-          Reach out to me!
-        </button>
-      </Link>
+      <div className="flex space-x-3">
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          href="contact"
+        >
+          <button className="py-2 px-5 !mt-10 hover:bg-neongreen hover:border-neongreen hover:backdrop-blur-lg hover:text-darkerblue duration-100 border-neongreen border-2 text-neongreen rounded-lg">
+            Reach out to me!
+          </button>
+        </Link>
+
+        <Link
+          activeClass="active"
+          to="work"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          href="contact"
+        >
+          <button className="py-2 px-5 !mt-10 text-darkerblue bg-neongreen border-neongreen hover:bg-transparent duration-100 hover:text-neongreen border-2 rounded-lg">
+            Check out my work!
+          </button>
+        </Link>
+      </div>
     </motion.div>
   );
 };

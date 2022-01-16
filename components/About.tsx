@@ -9,9 +9,7 @@ const About = () => {
       id="about"
       className="flex flex-col items-center justify-center mt-10 md:justify-start md:items-start md:ml-20"
     >
-      <div className="sm:!-ml-0 flex items-center">
-        <Title num={1} title="About me" />
-      </div>
+      <Title num={1} title="About me" />
 
       <div className="flex flex-col items-center justify-center md:flex-row md:justify-start md:items-start">
         <p className="mt-10 text-xl text-textdark md:w-1/2">{data.about}</p>
@@ -22,6 +20,7 @@ const About = () => {
             alt={data.name}
             objectFit="contain"
             layout="fill"
+            className="rounded-full"
           />
         </div>
       </div>

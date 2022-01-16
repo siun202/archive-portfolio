@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import * as React from "react";
 import { Link } from "react-scroll";
+import { FC } from "react";
 
 const variants = {
   open: {
@@ -50,7 +51,7 @@ const headerItems = [
   },
 ];
 
-const MenuItem: React.FC = () => {
+const MenuItem: FC = () => {
   return (
     <motion.ul
       className="flex flex-col min-h-screen pt-5 pl-10 mt-0 mb-5 -mr-10 space-y-5 list-none bg-bgblue backdrop-blur-md"

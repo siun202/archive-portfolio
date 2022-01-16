@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import * as React from "react";
+import { FC } from "react";
 
 interface pathProps {
   variants?: {
@@ -32,7 +33,7 @@ const Path = (props: pathProps) => (
   />
 );
 
-const MenuToggle: React.FC<MenuToggleProps> = ({ toggle }) => (
+const MenuToggle: FC<MenuToggleProps> = ({ toggle }) => (
   <button
     className="absolute flex items-center justify-center w-12 h-12 border-none rounded-full outline-none cursor-pointer select-none fill-current text-neongreen bg-neongreen top-6 md:top-4 right-7"
     onClick={toggle}

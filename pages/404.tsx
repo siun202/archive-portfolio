@@ -1,6 +1,7 @@
 import Image from "next/image";
+import { FC } from "react";
 
-const customError: React.FC = () => {
+const customError: FC = () => {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen">
       <h2 className="mb-5 text-2xl font-semibold">Why are you here?</h2>

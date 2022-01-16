@@ -3,7 +3,7 @@
   "image": "/Me.png",
   "profession": "FullStack web developer",
   "intro": "Focused on creating amazing UIs to solve business problems around the globe. I am participating in Hackathons and solving problems to build something cool and useful for the world. 🤓",
-  "about": "I am a fullstack web developer, who loves to design and develop beautiful websites. I have been coding for over a year now. One of my hobbies is writing, I love to document my journey by writing blog posts and also teach others through them.",
+  "about": "I am a full-stack web developer who loves to design and develop beautiful websites. I have been coding for over a year and enjoying every part of my journey. I love documenting my journey by writing blog posts and teaching others through my writing.",
   "skills": [
     {
       "src": "/logos/firebase.svg",
@@ -70,14 +70,14 @@
       "value": "Avneesh is an amazing web developer! He has created many dope websites. I have personally worked on a project with him and the experience was amazing as he learned some new things from and even I learned some new things from Avneesh",
       "name": "Prashoon Bhatacharjee",
       "relation": "Co-worker",
-      "pfp": "https://res.cloudinary.com/didkcszrq/image/upload/v1638000951/Screenshot_2021-11-27_134430_fqtfqh.png",
+      "pfp": "https://res.cloudinary.com/didkcszrq/image/upload/v1642321913/234132209_347389800399742_4966424340925486854_n_sjdy5w.jpg",
       "link": "https://www.linkedin.com/in/prashoon-bhattacharjee/"
     },
     {
       "value": "Avneesh is a very talented, helpful and a kind person. I can approve of his react skills as he has helped me and a lot of people in the community while they face issues, he is an active blogger and has written really useful articles in web development field.",
       "name": "Ashutosh Pandey",
       "relation": "Friend",
-      "pfp": "https://res.cloudinary.com/didkcszrq/image/upload/v1638000951/Screenshot_2021-11-27_134430_fqtfqh.png",
+      "pfp": "https://res.cloudinary.com/didkcszrq/image/upload/v1642321913/1622956695101_v5on4m.jpg",
       "link": "https://www.linkedin.com/in/ashutosh-p-9b4b54103/"
     }
   ],

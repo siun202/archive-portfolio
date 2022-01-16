@@ -1,3 +1,4 @@
+import { FC } from "react";
 import { PostType } from "../types/PostType";
 import Post from "./Post";
 import Title from "./Title";
@@ -6,7 +7,7 @@ interface Props {
   Posts: [PostType];
 }
 
-const Blog: React.FC<Props> = ({ Posts }) => {
+const Blog: FC<Props> = ({ Posts }) => {
   return (
     <div id="blog" className="mt-20 md:mx-20">
       <Title num={5} title="Blog" />
