@@ -9,11 +9,10 @@ import {
   Intro,
   Projects,
   Skills,
-  Testimonials
+  Testimonials,
 } from "../components";
 import { PostType } from "../types/PostType";
 import getPosts from "../utils/getPosts";
-
 
 interface Props {
   Posts: [PostType];

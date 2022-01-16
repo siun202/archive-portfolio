@@ -8,12 +8,7 @@ interface ButtonProps {
   marginLeft?: string;
 }
 
-const ContactButtons: FC<ButtonProps> = ({
-  link,
-  name,
-  icon,
-  marginLeft,
-}) => {
+const ContactButtons: FC<ButtonProps> = ({ link, name, icon, marginLeft }) => {
   return (
     <div>
       <a
