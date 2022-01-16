@@ -10,7 +10,8 @@
 
 > This is Avneesh's portfolio, feel free to use it and contribute to it
 
-![image](https://user-images.githubusercontent.com/76690419/144019401-29bbaf04-2f18-4a3a-b190-108bb5d43b1a.png)
+![Avneesh's portfolio banner](https://user-images.githubusercontent.com/76690419/149654118-3cc524c0-9772-4eb0-a86f-e1d2e532abcb.png)
+
 
 
 ### 🏠 [Homepage](https://www.avneesh.tech/)
