@@ -1,3 +1,17 @@
+# [1.4.0](https://github.com/avneesh0612/portfolio/compare/v1.3.0...v1.4.0) (2022-01-16)
+
+
+### Bug Fixes
+
+* formatting ([d53e93c](https://github.com/avneesh0612/portfolio/commit/d53e93c61261d9b5b1d2ca7942ff27f7bf08dba7))
+
+
+### Features
+
+* minor refactors, and improve via feedback ([b05cc88](https://github.com/avneesh0612/portfolio/commit/b05cc88a0f9dae698038db9587c49b23d91caf74))
+
+
+
 # [1.3.0](https://github.com/avneesh0612/portfolio/compare/v1.2.2...v1.3.0) (2022-01-14)
 
 
@@ -31,15 +45,6 @@
 ### Features
 
 * added a 404 page ([1060459](https://github.com/avneesh0612/portfolio/commit/10604598b0be70ad322b66384b79b6c40efeb570))
-
-
-
-# [1.1.0](https://github.com/avneesh0612/portfolio/compare/v0.2.0...v1.1.0) (2022-01-08)
-
-
-### Features
-
-* release v1 ([f50fdf8](https://github.com/avneesh0612/portfolio/commit/f50fdf8418f434975cc078824de3c5b054e2d44c))
 
 
 
