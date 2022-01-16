@@ -1,7 +1,6 @@
 import { GetStaticProps } from "next";
 import Head from "next/head";
-import React from "react";
-
+import React, { FC } from "react";
 import {
   About,
   Blog,
@@ -12,14 +11,14 @@ import {
   Skills,
   Testimonials,
 } from "../components";
-import getPosts from "../utils/getPosts";
 import { PostType } from "../types/PostType";
+import getPosts from "../utils/getPosts";
 
 interface Props {
   Posts: [PostType];
 }
 
-const Home: React.FC<Props> = ({ Posts }) => {
+const Home: FC<Props> = ({ Posts }) => {
   return (
     <div>
       <Head>
@@ -40,7 +39,7 @@ const Home: React.FC<Props> = ({ Posts }) => {
         <Header />
       </div>
 
-      <main className="relative mb-10 ml-5">
+      <main className="relative pl-5 mb-10">
         <Intro />
         <About />
         <Testimonials />

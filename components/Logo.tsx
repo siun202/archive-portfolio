@@ -1,8 +1,10 @@
+import { FC } from "react";
+
 interface LogoType {
   className?: string;
 }
 
-const Logo: React.FC<LogoType> = ({ className }) => {
+const Logo: FC<LogoType> = ({ className }) => {
   return (
     <svg
       className={className}
