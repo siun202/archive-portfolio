@@ -1,3 +1,12 @@
+## [1.4.1](https://github.com/avneesh0612/portfolio/compare/v1.4.0...v1.4.1) (2022-01-22)
+
+
+### Bug Fixes
+
+* og image ([117e68d](https://github.com/avneesh0612/portfolio/commit/117e68d7449a4f8bf1bf0bcd294b4dfa4b987b8a))
+
+
+
 # [1.4.0](https://github.com/avneesh0612/portfolio/compare/v1.3.0...v1.4.0) (2022-01-16)
 
 
@@ -36,15 +45,6 @@
 ### Bug Fixes
 
 * remove unused files :P ([93a8e95](https://github.com/avneesh0612/portfolio/commit/93a8e95cb24eb264a29e76bd1309e0275b6e3569))
-
-
-
-# [1.2.0](https://github.com/avneesh0612/portfolio/compare/v1.1.0...v1.2.0) (2022-01-08)
-
-
-### Features
-
-* added a 404 page ([1060459](https://github.com/avneesh0612/portfolio/commit/10604598b0be70ad322b66384b79b6c40efeb570))
 
 
 
