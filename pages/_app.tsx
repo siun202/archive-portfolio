@@ -68,7 +68,10 @@ function MyApp({ Component, pageProps }: AppProps) {
           title="RSS"
           href="https://www.avneesh.tech/rss.xml"
         />
-        <meta property="og:image" content="https://www.avneesh.tech/og-image.png" />
+        <meta
+          property="og:image"
+          content="https://www.avneesh.tech/og-image.png"
+        />
       </Head>
       <Component {...pageProps} />
     </>
