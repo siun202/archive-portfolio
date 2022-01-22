@@ -42,7 +42,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           description: data.about,
           images: [
             {
-              url: "/og-image.png",
+              url: "https://www.avneesh.tech/og-image.png",
               width: 800,
               height: 420,
               alt: data.name,
@@ -68,6 +68,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           title="RSS"
           href="https://www.avneesh.tech/rss.xml"
         />
+        <meta property="og:image" content="https://www.avneesh.tech/og-image.png" />
       </Head>
       <Component {...pageProps} />
     </>
