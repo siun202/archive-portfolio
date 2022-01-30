@@ -1,3 +1,12 @@
+## [1.4.2](https://github.com/avneesh0612/portfolio/compare/v1.4.1...v1.4.2) (2022-01-30)
+
+
+### Bug Fixes
+
+* add node types ([a77de92](https://github.com/avneesh0612/portfolio/commit/a77de92b4e04b87a2f5bc51d6c1c11a861716065))
+
+
+
 ## [1.4.1](https://github.com/avneesh0612/portfolio/compare/v1.4.0...v1.4.1) (2022-01-22)
 
 
@@ -36,15 +45,6 @@
 ### Bug Fixes
 
 * center hamburger icon ([8708002](https://github.com/avneesh0612/portfolio/commit/87080023ba54ffae8150f39d0ea750ed5112b01f))
-
-
-
-## [1.2.1](https://github.com/avneesh0612/portfolio/compare/v1.2.0...v1.2.1) (2022-01-08)
-
-
-### Bug Fixes
-
-* remove unused files :P ([93a8e95](https://github.com/avneesh0612/portfolio/commit/93a8e95cb24eb264a29e76bd1309e0275b6e3569))
 
 
 
