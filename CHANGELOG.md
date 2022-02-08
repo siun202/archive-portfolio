@@ -1,3 +1,19 @@
+# [1.5.0](https://github.com/avneesh0612/portfolio/compare/v1.4.2...v1.5.0) (2022-02-08)
+
+
+### Bug Fixes
+
+* build and use link ([e8fc196](https://github.com/avneesh0612/portfolio/commit/e8fc1965d0f7d77fec6aecd0f0e8b8e8791f9312))
+* typo ([3ea1146](https://github.com/avneesh0612/portfolio/commit/3ea11468f2aa841de16712e253a03c941ae77f85))
+* use router instead of a tag ([d554049](https://github.com/avneesh0612/portfolio/commit/d554049f05bae4cde300afa6d152f7b39f45adeb))
+
+
+### Features
+
+* changes on the 404 page ([eefac78](https://github.com/avneesh0612/portfolio/commit/eefac7857de018db1906f82d7cc1aef7204490bd))
+
+
+
 ## [1.4.2](https://github.com/avneesh0612/portfolio/compare/v1.4.1...v1.4.2) (2022-01-30)
 
 
@@ -36,15 +52,6 @@
 ### Features
 
 * added google analytics ([ce861ad](https://github.com/avneesh0612/portfolio/commit/ce861ada8b76474979fd5fb866bee55d7b9acc7f))
-
-
-
-## [1.2.2](https://github.com/avneesh0612/portfolio/compare/v1.2.1...v1.2.2) (2022-01-13)
-
-
-### Bug Fixes
-
-* center hamburger icon ([8708002](https://github.com/avneesh0612/portfolio/commit/87080023ba54ffae8150f39d0ea750ed5112b01f))
 
 
 
