@@ -1,8 +1,9 @@
+import { NextPage } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { FC } from "react";
 
-const CustomError: FC = () => {
+
+const CustomError: NextPage = () => {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen">
       <Image
