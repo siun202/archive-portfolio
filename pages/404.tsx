@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { FC } from "react";
 
-inport { useRouter } from "next/router" 
+import { useRouter } from "next/router" 
 
 const customError: FC = () => {
   
