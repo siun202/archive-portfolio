@@ -1,22 +1,34 @@
+import { NextPage } from "next";
 import Image from "next/image";
-import { FC } from "react";
+import Link from "next/link";
 
-const customError: FC = () => {
+
+const CustomError: NextPage = () => {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen">
-      <h2 className="mb-5 text-2xl font-semibold">Why are you here?</h2>
+      <Image
+        objectFit="contain"
+        width={500}
+        height={300}
+        src="/16.png"
+        alt=""
+      />
 
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <Image
-          objectFit="contain"
-          width={500}
-          height={300}
-          src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg"
-          alt=""
-        />
-      </a>
+      <h2 className="mb-5 text-2xl font-semibold font-sora">
+        Lost in the void?
+      </h2>
+      <p className="text-center">
+        The page you&apos;re looking for doesn&apos;t exist. <br />
+        We suggest you back to home :)
+      </p>
+
+      <Link href="/">
+        <a className="mt-4 cursor-pointer flex items-center px-5 py-2 duration-100 border-2 rounded-lg fill-current stroke-current text-darkerblue bg-neongreen border-neongreen hover:bg-transparent hover:text-neongreen">
+          Back to Home
+        </a>
+      </Link>
     </div>
   );
 };
 
-export default customError;
+export default CustomError;
