@@ -1,11 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FC } from "react";
 
-import { useRouter } from "next/router" 
-
-const customError: FC = () => {
-  
-  const router = useRouter() 
+const CustomError: FC = () => {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen">
       <Image
@@ -24,14 +21,13 @@ const customError: FC = () => {
         We suggest you back to home :)
       </p>
 
-      <button 
-        onClick={()=>router.push('/')}
-        className="mt-4 cursor-pointer flex items-center px-5 py-2 duration-100 border-2 rounded-lg fill-current stroke-current text-darkerblue bg-neongreen border-neongreen hover:bg-transparent hover:text-neongreen"
-      >
-        Back to Home
-      </button>
+      <Link href="/">
+        <a className="mt-4 cursor-pointer flex items-center px-5 py-2 duration-100 border-2 rounded-lg fill-current stroke-current text-darkerblue bg-neongreen border-neongreen hover:bg-transparent hover:text-neongreen">
+          Back to Home
+        </a>
+      </Link>
     </div>
   );
 };
 
-export default customError;
+export default CustomError;
