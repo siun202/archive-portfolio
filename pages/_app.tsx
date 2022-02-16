@@ -14,7 +14,6 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
-    
       <NextSeo
         title={data.name}
         titleTemplate={data.name}

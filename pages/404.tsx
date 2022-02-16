@@ -2,7 +2,6 @@ import { NextPage } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
-
 const CustomError: NextPage = () => {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen">
