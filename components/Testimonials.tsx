@@ -1,5 +1,5 @@
-import Title from "./Title";
 import data from "../public/data.json";
+import Title from "./Title";
 import Image from "next/image";
 
 const Testimonials = () => {

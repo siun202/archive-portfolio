@@ -1,7 +1,7 @@
-import Image from "next/image";
-import React from "react";
 import data from "../public/data.json";
 import Title from "./Title";
+import Image from "next/image";
+import React from "react";
 
 const About = () => {
   return (

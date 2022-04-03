@@ -1,7 +1,7 @@
-import { FC } from "react";
 import { PostType } from "../types/PostType";
 import Post from "./Post";
 import Title from "./Title";
+import { FC } from "react";
 
 interface Props {
   Posts: [PostType];

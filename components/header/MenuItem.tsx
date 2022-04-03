@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import * as React from "react";
-import { Link } from "react-scroll";
 import { FC } from "react";
+import { Link } from "react-scroll";
 
 const variants = {
   open: {

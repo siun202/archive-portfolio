@@ -1,6 +1,3 @@
-import { GetStaticProps } from "next";
-import Head from "next/head";
-import React, { FC } from "react";
 import {
   About,
   Blog,
@@ -13,6 +10,9 @@ import {
 } from "../components";
 import { PostType } from "../types/PostType";
 import getPosts from "../utils/getPosts";
+import { GetStaticProps } from "next";
+import Head from "next/head";
+import React, { FC } from "react";
 
 interface Props {
   Posts: [PostType];

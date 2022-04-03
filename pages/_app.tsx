@@ -1,9 +1,9 @@
-import { NextSeo } from "next-seo";
-import { AppProps } from "next/app";
+import data from "../public/data.json";
 import "../styles/globals.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import data from "../public/data.json";
+import { NextSeo } from "next-seo";
+import { AppProps } from "next/app";
 import Head from "next/head";
 import Script from "next/script";
 
@@ -14,6 +14,15 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
+      {process.env.NEXT_PUBLIC_UMAMI_SCRIPT_URL &&
+        process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID && (
+          <Script
+            src={process.env.NEXT_PUBLIC_UMAMI_SCRIPT_URL}
+            data-website-id={process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID}
+            strategy="lazyOnload"
+          />
+        )}
+
       <NextSeo
         title={data.name}
         titleTemplate={data.name}

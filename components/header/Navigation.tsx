@@ -1,6 +1,6 @@
+import MenuItem from "./MenuItem";
 import { motion } from "framer-motion";
 import * as React from "react";
-import MenuItem from "./MenuItem";
 
 const variants = {
   open: {

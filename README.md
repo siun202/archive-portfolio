@@ -12,13 +12,12 @@
 
 ![Avneesh's portfolio banner](https://user-images.githubusercontent.com/76690419/149654118-3cc524c0-9772-4eb0-a86f-e1d2e532abcb.png)
 
-
-
 ### 🏠 [Homepage](https://www.avneesh.tech/)
 
 ### ✨ [Demo](https://www.avneesh.tech/)
 
 ## Using the template
+
 To use this template follow the instructions given in [Using guide](https://github.com/avneesh0612/portfolio/blob/main/USING.md).
 
 ## Author

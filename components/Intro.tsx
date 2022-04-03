@@ -1,7 +1,7 @@
+import data from "../public/data.json";
 import { motion } from "framer-motion";
 import React from "react";
 import { Link } from "react-scroll";
-import data from "../public/data.json";
 
 const Intro = () => {
   return (

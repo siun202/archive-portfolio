@@ -1,5 +1,5 @@
-import { FC } from "react";
 import { LineSvg } from "./icons";
+import { FC } from "react";
 
 interface TitleProps {
   num: number;

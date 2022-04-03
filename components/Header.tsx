@@ -1,10 +1,10 @@
+import { useDimensions } from "../hooks/useDimensions";
+import Logo from "./Logo";
+import { MenuToggle, Navigation } from "./header";
 import { motion, useCycle } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-scroll";
-import { useDimensions } from "../hooks/useDimensions";
-import Logo from "./Logo";
-import { MenuToggle, Navigation } from "./header";
 
 const sidebar = {
   open: (height = 1000) => ({

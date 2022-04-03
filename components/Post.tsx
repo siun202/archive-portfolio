@@ -1,7 +1,7 @@
-import Image from "next/image";
-import { FC } from "react";
 import { PostType } from "../types/PostType";
 import { CommentIcon, LikeIcon } from "./icons";
+import Image from "next/image";
+import { FC } from "react";
 
 interface Props {
   post: PostType;

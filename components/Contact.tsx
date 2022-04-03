@@ -1,8 +1,8 @@
+import data from "../public/data.json";
+import ContactButtons from "./ContactButtons";
+import { LineSvg } from "./icons";
 import Image from "next/image";
 import React from "react";
-import ContactButtons from "./ContactButtons";
-import data from "../public/data.json";
-import { LineSvg } from "./icons";
 
 const Contact = () => {
   return (

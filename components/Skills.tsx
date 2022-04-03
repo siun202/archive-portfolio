@@ -1,7 +1,7 @@
-import { motion } from "framer-motion";
-import Image from "next/image";
 import data from "../public/data.json";
 import Title from "./Title";
+import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Skills = () => {
   return (

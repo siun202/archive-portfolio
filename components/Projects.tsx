@@ -1,8 +1,8 @@
+import data from "../public/data.json";
+import Title from "./Title";
+import { GitHubIcon, VisitIcon } from "./icons";
 import Image from "next/image";
 import React from "react";
-import data from "../public/data.json";
-import { GitHubIcon, VisitIcon } from "./icons";
-import Title from "./Title";
 
 const Projects = () => {
   return (
