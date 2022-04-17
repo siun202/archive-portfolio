@@ -9,7 +9,7 @@ const CustomError: NextPage = () => {
         objectFit="contain"
         width={500}
         height={300}
-        src="/16.png"
+        src="/404.png"
         alt=""
       />
 
@@ -22,7 +22,7 @@ const CustomError: NextPage = () => {
       </p>
 
       <Link href="/">
-        <a className="mt-4 cursor-pointer flex items-center px-5 py-2 duration-100 border-2 rounded-lg fill-current stroke-current text-darkerblue bg-neongreen border-neongreen hover:bg-transparent hover:text-neongreen">
+        <a className="mt-4 cursor-pointer flex items-center px-5 py-2 duration-100 border-2 rounded-lg fill-current stroke-current text-darkerBlue bg-neon border-neon hover:bg-transparent hover:text-neon">
           Back to Home
         </a>
       </Link>

@@ -12,7 +12,7 @@
 }
 
 body::-webkit-scrollbar,
-.hidescrollbar::-webkit-scrollbar {
+.hideScrollBar::-webkit-scrollbar {
   width: 6px;
 }
 
@@ -26,11 +26,11 @@ body::-webkit-scrollbar-track {
   background: #222e50 !important;
 }
 
-.hidescrollbar::-webkit-scrollbar-thumb {
+.hideScrollBar::-webkit-scrollbar-thumb {
   display: none;
 }
 
-.hidescrollbar::-webkit-scrollbar-track {
+.hideScrollBar::-webkit-scrollbar-track {
   display: none;
 }
 

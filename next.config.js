@@ -1,5 +1,9 @@
 module.exports = {
   images: {
-    domains: ["res.cloudinary.com", "cdn.hashnode.com", "i.ytimg.com"],
+    domains: [
+      "res.cloudinary.com",
+      "cdn.hashnode.com",
+      "avatars.githubusercontent.com",
+    ],
   },
 };

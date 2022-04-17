@@ -14,7 +14,7 @@ const Post: FC<Props> = ({ post }) => {
       key={post._id}
       target="_blank"
       rel="noreferrer"
-      className="relative flex flex-col m-5 my-5 mt-5 rounded-lg md:mb-0 md:mx-5 w-80 md:w-96 dark:bg-darkerblue"
+      className="relative flex flex-col m-5 my-5 mt-5 rounded-lg md:mb-0 md:mx-5 w-80 md:w-96 dark:bg-darkerBlue"
     >
       {post.coverImage && (
         <Image
@@ -28,7 +28,7 @@ const Post: FC<Props> = ({ post }) => {
       )}
 
       <div className="flex flex-col p-4 pb-0">
-        <h2 className="text-2xl font-semibold text-neongreen">{post.title}</h2>
+        <h2 className="text-2xl font-semibold text-neon">{post.title}</h2>
         <p className="mt-4 text-base break-words text-text">{post.brief}</p>
       </div>
       <div className="flex justify-between w-full p-4 mt-auto">

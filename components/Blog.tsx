@@ -13,7 +13,7 @@ const Blog: FC<Props> = ({ Posts }) => {
       <Title num={5} title="Blog" />
 
       <div className="flex flex-wrap justify-between mt-10">
-        {Posts.slice(0, 3).map((post) => {
+        {Posts.slice(0, 3).map(post => {
           return <Post key={post._id} post={post} />;
         })}
       </div>

@@ -107,7 +107,7 @@ const Header = () => {
         {headerItems.map((item, i) => (
           <li
             key={i}
-            className="border-b-2 border-transparent cursor-pointer text-text hover:border-neongreen"
+            className="border-b-2 border-transparent cursor-pointer text-text hover:border-neon"
           >
             <Link
               activeClass="active"
@@ -118,7 +118,7 @@ const Header = () => {
               duration={500}
               href={item.href}
             >
-              <span className="text-neongreen">{i + 1}. </span>
+              <span className="text-neon">{i + 1}. </span>
               {item.name}
             </Link>
           </li>

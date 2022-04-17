@@ -4,7 +4,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { NextSeo } from "next-seo";
 import { AppProps } from "next/app";
-import Head from "next/head";
 import Script from "next/script";
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -28,14 +27,14 @@ function MyApp({ Component, pageProps }: AppProps) {
         titleTemplate={data.name}
         defaultTitle={data.name}
         description={data.about}
-        canonical="https://www.avneesh.tech/"
+        canonical={data.website}
         openGraph={{
-          url: "https://www.avneesh.tech/",
+          url: data.website,
           title: data.name,
           description: data.about,
           images: [
             {
-              url: "https://www.avneesh.tech/og-image.png",
+              url: `${data.website}/og-image.png`,
               width: 800,
               height: 420,
               alt: data.name,
@@ -54,18 +53,6 @@ function MyApp({ Component, pageProps }: AppProps) {
           cardType: "summary_large_image",
         }}
       />
-      <Head>
-        <link
-          rel="alternate"
-          type="application/rss+xml"
-          title="RSS"
-          href="https://www.avneesh.tech/rss.xml"
-        />
-        <meta
-          property="og:image"
-          content="https://www.avneesh.tech/og-image.png"
-        />
-      </Head>
       <Component {...pageProps} />
     </>
   );

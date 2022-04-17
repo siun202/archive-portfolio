@@ -12,9 +12,9 @@ const About = () => {
       <Title num={1} title="About me" />
 
       <div className="flex flex-col items-center justify-center md:flex-row md:justify-start md:items-start">
-        <p className="mt-10 text-xl text-textdark md:w-1/2">{data.about}</p>
+        <p className="mt-10 text-xl text-textDark md:w-1/2">{data.about}</p>
 
-        <div className="relative mx-auto mt-20 ml-0 border-2 rounded-full md:mt-0 md:ml-20 w-80 h-80 border-neongreen">
+        <div className="relative mx-auto mt-20 border-2 rounded-full md:mt-0 md:ml-20 w-80 h-80 border-neon">
           <Image
             src={data.image}
             alt={data.name}

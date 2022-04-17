@@ -22,16 +22,6 @@ const Home: FC<Props> = ({ Posts }) => {
   return (
     <div>
       <Head>
-        <meta
-          name="keywords"
-          content="Avneesh, Agarwal, Avneesh Agarwal, web dev, blogger, content creator"
-        />
-        <link
-          rel="alternate"
-          type="application/rss+xml"
-          title="RSS"
-          href="https://www.avneesh.tech/rss.xml"
-        />
         <link rel="icon" href="/logo.svg" />
       </Head>
 
@@ -39,7 +29,7 @@ const Home: FC<Props> = ({ Posts }) => {
         <Header />
       </div>
 
-      <main className="relative pl-5 mb-10">
+      <main className="mb-10">
         <Intro />
         <About />
         <Testimonials />

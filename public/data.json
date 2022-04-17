@@ -1,84 +1,85 @@
 {
   "name": "Avneesh Agarwal",
-  "image": "/Me.png",
+  "image": "/me.png",
   "profession": "FullStack web developer",
-  "intro": "Focused on creating amazing UIs to solve business problems around the globe. I am participating in Hackathons and solving problems to build something cool and useful for the world. 🤓",
+  "intro": "Focused on building products that will make people's lives better. I also create content in form of blogs and threads. I love to learn new things and I am always open to learn new technologies.",
   "about": "I am a full-stack web developer who loves to design and develop beautiful websites. I have been coding for over a year and enjoying every part of my journey. I love documenting my journey by writing blog posts and teaching others through my writing.",
+  "website": "https://www.avneesh.tech",
   "skills": [
-    {
-      "src": "/logos/firebase.svg",
-      "name": "Firebase",
-      "link": "https://firebase.google.com/"
-    },
-    {
-      "src": "/logos/github.svg",
-      "name": "GitHub",
-      "link": "https://github.com/"
-    },
     {
       "src": "/logos/react.svg",
       "name": "React",
       "link": "https://reactjs.org/"
     },
     {
-      "src": "/logos/tailwind.svg",
-      "name": "Tailwind",
-      "link": "https://tailwindcss.com/"
+      "src": "/logos/nextjs.svg",
+      "name": "Next",
+      "link": "https://nextjs.org/"
     },
     {
       "src": "/logos/typescript.svg",
-      "name": "Typescreipt",
+      "name": "Typescript",
       "link": "https://www.typescriptlang.org/"
     },
     {
-      "src": "/logos/figma.svg",
-      "name": "Figma",
-      "link": "https://www.figma.com/"
+      "src": "/logos/thirdweb.svg",
+      "name": "Thirdweb",
+      "link": "https://thirdweb.com"
+    },
+    {
+      "src": "/logos/tailwind.svg",
+      "name": "Tailwind",
+      "link": "https://tailwindcss.com/"
     }
   ],
   "projects": [
     {
-      "name": "Voyager",
-      "image": "/projects/Voyagger.png",
-      "about": "These tough times have made us all aware of the importance of our loved ones and through this app, users can bring a their family and friend's faces by sending them their favoritedelicacy, medicines, or a simple heartfelt gift.",
-      "tech": ["Next.js", "Auth0", "Firebase", "TailwindCSS"],
+      "name": "Irish Players Club",
+      "image": "https://res.cloudinary.com/didkcszrq/image/upload/v1646014704/Frame_1_cglafw.png",
+      "about": "A NFT collection of 5,555 unique leprechaun NFTs created by former Domers in an effort to support currently rostered Notre Dame football players.",
+      "tech": ["Next.js", "Solidity", "Node.js", "Chakra UI", "Firebase"],
       "links": {
-        "GitHub": "https://github.com/avneesh0612/voyagger",
-        "Live": "https://www.voyagger.tech"
-      }
+        "Live": "https://www.irishplayersclub.com/"
+      },
+      "role": "Fullstack web3 developer"
     },
     {
-      "name": "ChatCube",
-      "image": "/projects/Chatcube.png",
-      "about": "ChatCube is a 1:1 chatting application. You can invite your friends and chat with in realtime. You can send them emojis, photos text messages and many more.",
-      "tech": ["Next.js", "Auth0", "Firebase", "TailwindCSS"],
+      "name": "React and Next.js Snippets",
+      "image": "/projects/react-next.js-snips.png",
+      "about": "Packed with a lot of React and Next.js snippets, along with typescript! It is very easy to use, you can simply install it and type in the prefix for the snippets.",
+      "tech": ["VScode", "React", "Next.js"],
       "links": {
-        "GitHub": "https://github.com/avneesh0612/ChatCube",
-        "Live": "https://www.chatcube.me"
-      }
+        "GitHub": "https://github.com/avneesh0612/react-nextjs-snippets",
+        "Live": "https://www.producthunt.com/posts/react-and-next-js-snippets"
+      },
+      "role": "Lead developer"
+    },
+    {
+      "name": "Faucetli",
+      "image": "/projects/faucetli.png",
+      "about": "🦄 Faucetli is a minimal command-line tool to receive testnet tokens right away from your terminal.",
+      "tech": ["Node.js", "Web3.js", "Typescript"],
+      "links": {
+        "GitHub": "https://github.com/Kira272921/faucetli",
+        "Live": "https://www.producthunt.com/posts/faucetli"
+      },
+      "role": "Co-Founder"
     }
   ],
   "testimonials": [
     {
-      "value": "Avneesh is a very fast learner and is a very sincere individual. He explores new technologies and is unafraid of trying our things.Avneesh on React JS and Next JS and demonstrated good business understanding apart from the programming and user skills.",
-      "name": "Summet Mahapatra",
-      "relation": "StackFusion",
-      "pfp": "https://res.cloudinary.com/didkcszrq/image/upload/v1638000951/Screenshot_2021-11-27_134430_fqtfqh.png",
-      "link": "https://www.linkedin.com/company/stackfusion-pvt-ltd/"
-    },
-    {
-      "value": "Avneesh is an amazing web developer! He has created many dope websites. I have personally worked on a project with him and the experience was amazing as he learned some new things from and even I learned some new things from Avneesh",
-      "name": "Prashoon Bhatacharjee",
+      "value": "I have launched more than 2 products on Product Hunt with Avneesh and I have enjoyed the entire journey from getting the project idea till launching it on Product Hunt",
+      "name": "Kira",
       "relation": "Co-worker",
-      "pfp": "https://res.cloudinary.com/didkcszrq/image/upload/v1642321913/234132209_347389800399742_4966424340925486854_n_sjdy5w.jpg",
-      "link": "https://www.linkedin.com/in/prashoon-bhattacharjee/"
+      "pfp": "https://avatars.githubusercontent.com/u/90365542?v=4",
+      "link": "https://github.com/Kira272921/"
     },
     {
-      "value": "Avneesh is a very talented, helpful and a kind person. I can approve of his react skills as he has helped me and a lot of people in the community while they face issues, he is an active blogger and has written really useful articles in web development field.",
-      "name": "Ashutosh Pandey",
-      "relation": "Friend",
-      "pfp": "https://res.cloudinary.com/didkcszrq/image/upload/v1642321913/1622956695101_v5on4m.jpg",
-      "link": "https://www.linkedin.com/in/ashutosh-p-9b4b54103/"
+      "value": "I've worked on numerous projects with Avneesh and the flow has always been perfect. Avneesh is a great leader and we also listen to spotify together!",
+      "name": "Anurag",
+      "relation": "Co-builder",
+      "pfp": "https://avatars.githubusercontent.com/u/77309809?v=4",
+      "link": "https://anurag.tech"
     }
   ],
   "links": [
@@ -115,7 +116,7 @@
     {
       "name": "LinkedIn",
       "icon": "linkedin.svg",
-      "link": "https://www.linkedin.com/in/avneesh-agarwal-78312b20a"
+      "link": "https://www.linkedin.com/in/avneesh0612"
     }
   ]
 }

@@ -2,28 +2,11 @@ import { motion } from "framer-motion";
 import * as React from "react";
 import { FC } from "react";
 
-interface pathProps {
-  variants?: {
-    open: {
-      d?: string;
-      opacity?: number;
-    };
-    closed: {
-      d?: string;
-      opacity?: number;
-    };
-  };
-  d?: string;
-  transition?: {
-    duration?: number;
-  };
-}
-
 interface MenuToggleProps {
   toggle: React.MouseEventHandler<HTMLButtonElement>;
 }
 
-const Path = (props: pathProps) => (
+const Path = (props: any) => (
   <motion.path
     fill="transparent"
     strokeWidth="3"
@@ -35,7 +18,7 @@ const Path = (props: pathProps) => (
 
 const MenuToggle: FC<MenuToggleProps> = ({ toggle }) => (
   <button
-    className="absolute flex items-center justify-center w-12 h-12 border-none rounded-full outline-none cursor-pointer select-none fill-current text-neongreen bg-neongreen top-6 md:top-4 right-7"
+    className="absolute flex items-center justify-center w-12 h-12 border-none rounded-full outline-none cursor-pointer select-none fill-current text-neon bg-neon top-6 md:top-4 right-7"
     onClick={toggle}
   >
     <svg width="23" height="21" viewBox="0 0 23 21">
