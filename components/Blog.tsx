@@ -9,7 +9,7 @@ interface Props {
 
 const Blog: FC<Props> = ({ Posts }) => {
   return (
-    <div id="blog" className="mt-20 md:mx-20">
+    <div id="blog" className="mt-20 md:mx-20 mx-10 w-screen">
       <Title num={5} title="Blog" />
 
       <div className="flex flex-wrap justify-between mt-10">

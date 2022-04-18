@@ -6,7 +6,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div id="work" className="md:ml-20">
+    <div id="work" className="md:ml-20 ml-10">
       <Title num={3} title="Some Things I’ve Built" />
 
       <div className="flex flex-col">

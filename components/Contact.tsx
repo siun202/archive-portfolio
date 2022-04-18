@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="z-50 flex flex-col items-center justify-center w-screen mt-20"
+      className="z-50 flex flex-col items-center justify-center w-screen mt-20 ml-10 sm:ml-0"
     >
       <div className="flex items-center justify-center mt-10 space-x-5">
         <LineSvg className="relative w-20 h-1 md:w-60" />

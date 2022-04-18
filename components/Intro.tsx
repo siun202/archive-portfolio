@@ -10,7 +10,7 @@ const Intro = () => {
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
       id="intro"
-      className="space-y-5 mt-20 md:h-[60vh] md:ml-20"
+      className="space-y-5 mt-20 md:h-[60vh] md:ml-20 ml-10"
     >
       <p className="text-3xl text-neon font-fira">Hi, my name is</p>
       <h1 className="text-5xl font-extrabold text-text md:text-8xl">

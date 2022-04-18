@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col items-center justify-center mt-10 md:justify-start md:items-start md:ml-20"
+      className="flex flex-col items-center justify-center mt-10 md:justify-start md:items-start md:ml-20 ml-10"
     >
       <Title num={1} title="About me" />
 

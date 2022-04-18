@@ -11,7 +11,7 @@ const Testimonials = () => {
         {data.testimonials.map((testimonial, i) => (
           <div
             key={i}
-            className="rotate-3 hover:rotate-0 cursor-pointer duration-100 backdrop-filter backdrop-blur-3xl shadow-2xl border-2 border-darkerBlue  bg-white/5  px-4 my-10 pb-3 md:w-[400px] w-[300px] rounded-lg"
+            className="rotate-3 hover:rotate-0 cursor-pointer duration-100 backdrop-filter backdrop-blur-3xl shadow-2xl border-2 border-darkerBlue  bg-white/5  px-4 my-10 pb-3 md:w-[400px] min-w-[300px] rounded-lg"
           >
             <h2 className="pt-5">{testimonial.value}</h2>
             <a
