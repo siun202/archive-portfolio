@@ -1,12 +1,11 @@
-import Title from '../Common/Title';
-import Project from './Project';
-import data from '@/data/data.json';
+import { Title } from '../Common/Title';
+import { Project } from './Project';
+import data from '@/data';
 
-const Projects = () => {
+export const Projects = () => {
     return (
-        <div id="work">
-            <Title num={3} title="Some Things I’ve Built" />
-
+        <div className="md:ml-20" id="work">
+            <Title num={2} title="What I've worked on" />
             <div className="flex flex-col">
                 {data.projects.map((project, i) => (
                     <Project key={i} project={project} />
@@ -15,5 +14,3 @@ const Projects = () => {
         </div>
     );
 };
-
-export default Projects;

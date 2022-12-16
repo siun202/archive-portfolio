@@ -1,28 +1,22 @@
 import Layout from '@/Layout/Main.Layout';
-import About from '@/components/About';
-import Blog from '@/components/Blog';
-import Contact from '@/components/Contact';
-import Intro from '@/components/Intro';
-import Projects from '@/components/Projects';
-import Skills from '@/components/Skills';
-import Testimonials from '@/components/Testimonials';
-import { PostType } from '@/types/PostType';
+import { Blog, Contact, Intro, Projects } from '@/components';
+import { About } from '@/components';
+import data from '@/data';
+import { PostType } from '@/types';
 import getPosts from '@/utils/getPosts';
 import { GetStaticProps } from 'next';
-import React, { FC } from 'react';
+import { FC } from 'react';
 
-interface Props {
+interface IHomeProps {
     Posts: [PostType];
 }
 
-const Home: FC<Props> = ({ Posts }) => {
+const Home: FC<IHomeProps> = ({ Posts }) => {
     return (
         <Layout>
             <Intro />
             <About />
-            <Testimonials />
             <Projects />
-            <Skills />
             <Blog Posts={Posts} />
             <Contact />
         </Layout>
@@ -32,7 +26,7 @@ const Home: FC<Props> = ({ Posts }) => {
 export default Home;
 
 export const getStaticProps: GetStaticProps = async () => {
-    const Posts = await getPosts('avneesh0612');
+    const Posts = await getPosts(data.username);
 
     return {
         props: {

@@ -1,19 +1,19 @@
-import Title from '../Common/Title';
-import Post from './Post';
+import { Title } from '../Common/Title';
+import { Post } from './Post';
 import { PostType } from '@/types/PostType';
 import { FC } from 'react';
 
-interface Props {
+interface IBlogProps {
     Posts: [PostType];
 }
 
-const Blog: FC<Props> = ({ Posts }) => {
+export const Blog: FC<IBlogProps> = ({ Posts }) => {
     return (
         <div
-            className="flex flex-col items-center justify-center  md:justify-start md:items-start "
+            className="flex flex-col items-center justify-center md:justify-start md:items-start md:ml-20"
             id="blog"
         >
-            <Title num={5} title="Blog" />
+            <Title num={3} title="Blog" />
 
             <div className="flex flex-wrap justify-between mt-10">
                 {Posts.slice(0, 3).map(post => {
@@ -23,5 +23,3 @@ const Blog: FC<Props> = ({ Posts }) => {
         </div>
     );
 };
-
-export default Blog;

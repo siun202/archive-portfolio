@@ -1,12 +1,12 @@
 import ContactButtons from './ContactButtons';
 import { LineSvg } from '@/Icons';
-import data from '@/data/data.json';
+import data from '@/data';
 import React from 'react';
 
-const Contact = () => {
+export const Contact = () => {
     return (
         <div
-            className="z-50 flex flex-col items-center justify-center"
+            className="z-50 flex flex-col items-center justify-center w-full"
             id="contact"
         >
             <div className="flex items-center justify-center mt-10 space-x-5">
@@ -18,13 +18,13 @@ const Contact = () => {
             </div>
 
             <div className="flex flex-wrap items-center justify-center mx-auto">
-                {data.links.map((link, i) => (
-                    <div key={i}>
+                {data.links.map(({ icon, link, name }, i) => (
+                    <div key={name}>
                         <ContactButtons
-                            icon={link.icon}
-                            link={link.link}
+                            icon={icon}
+                            link={link}
                             marginLeft={i === 0 ? 'ml-0' : 'ml-6 md:ml-10'}
-                            name={link.name}
+                            name={name}
                         />
                     </div>
                 ))}
@@ -32,5 +32,3 @@ const Contact = () => {
         </div>
     );
 };
-
-export default Contact;

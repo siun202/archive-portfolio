@@ -6,7 +6,7 @@ interface TitleProps {
     title: string;
 }
 
-const Title: FC<TitleProps> = ({ num, title }) => {
+export const Title: FC<TitleProps> = ({ num, title }) => {
     return (
         <div
             className="flex items-center w-full mt-20"
@@ -21,5 +21,3 @@ const Title: FC<TitleProps> = ({ num, title }) => {
         </div>
     );
 };
-
-export default Title;

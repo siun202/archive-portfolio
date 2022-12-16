@@ -1,11 +1,11 @@
-import data from '@/data/data.json';
+import data from '@/data';
 import '@/styles/globals.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { NextSeo } from 'next-seo';
 import { AppProps } from 'next/app';
 
-function MyApp({ Component, pageProps }: AppProps) {
+const App = ({ Component, pageProps }: AppProps) => {
     if (typeof window === 'object') {
         AOS.init();
     }
@@ -22,30 +22,30 @@ function MyApp({ Component, pageProps }: AppProps) {
                     description: data.about,
                     images: [
                         {
-                            url: `${data.website}/og-image.png`,
+                            url: '/og-image.png',
                             width: 800,
                             height: 420,
                             alt: data.name,
                         },
                     ],
                     profile: {
-                        firstName: 'Avneesh',
+                        firstName: data.name.split(' ')[0],
                         gender: 'Male',
-                        lastName: 'Agarwal',
-                        username: 'avneesh0612',
+                        lastName: data.name.split(' ')[1],
+                        username: data.username,
                     },
                 }}
                 title={data.name}
                 titleTemplate={data.name}
                 twitter={{
-                    handle: '@avneesh0612',
-                    site: '@avneesh0612',
+                    handle: `@${data.username}`,
+                    site: `@${data.username}`,
                     cardType: 'summary_large_image',
                 }}
             />
             <Component {...pageProps} />
         </>
     );
-}
+};
 
-export default MyApp;
+export default App;

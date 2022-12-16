@@ -1,18 +1,18 @@
-import data from '@/data/data.json';
+import data from '@/data';
 import { motion } from 'framer-motion';
 import React from 'react';
 import { Link } from 'react-scroll';
 
-const Intro = () => {
+export const Intro = () => {
     return (
         <motion.div
             animate={{ y: 0 }}
-            className="space-y-5"
+            className="space-y-5 md:ml-20"
             id="intro"
             initial={{ y: 40 }}
             transition={{ duration: 0.5 }}
         >
-            <p className="text-3xl text-neon font-fira">Hi, my name is</p>
+            <p className="text-3xl text-neon font-fira">gm, my name is</p>
             <h1 className="text-5xl font-extrabold text-text md:text-8xl">
                 {data.name}
             </h1>
@@ -56,5 +56,3 @@ const Intro = () => {
         </motion.div>
     );
 };
-
-export default Intro;
