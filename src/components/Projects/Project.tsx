@@ -12,7 +12,7 @@ export const Project: FC<IProjectProps> = ({ project }) => {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
                 alt={project.name}
-                className="relative md:w-[450px] w-full ml-4 h-[250px] rounded-lg"
+                className="relative md:w-[450px] w-full ml-4 h-[250px] rounded-lg object-contain"
                 loading="lazy"
                 src={project.image}
             />

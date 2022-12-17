@@ -11,7 +11,7 @@ const data = {
     projects: [
         {
             name: 'thirdweb',
-            image: 'https://thirdweb.com/thirdweb.png',
+            image: '/projects/thirdweb.png',
             about: "Build web3 apps easily with thirdweb's powerful SDKs, audited smart contracts, and developer tools—for Ethereum, Polygon, Solana, & more.",
             tech: [
                 'Web3',
