@@ -1,5 +1,5 @@
 const getUserDataAndPosts = async (username: string) => {
-    const userDataQuery = `
+  const userDataQuery = `
    {
   user(username: "${username}") {
     publication {
@@ -17,16 +17,16 @@ const getUserDataAndPosts = async (username: string) => {
   }
 }
   `;
-    const userDataRes = await fetch('https://api.hashnode.com/', {
-        method: 'POST',
-        headers: {
-            'Content-type': 'application/json',
-        },
-        body: JSON.stringify({ query: userDataQuery }),
-    });
-    const userData = await userDataRes.json();
+  const userDataRes = await fetch('https://api.hashnode.com/', {
+    method: 'POST',
+    headers: {
+      'Content-type': 'application/json',
+    },
+    body: JSON.stringify({ query: userDataQuery }),
+  });
+  const userData = await userDataRes.json();
 
-    return userData.data.user;
+  return userData.data.user;
 };
 
 export default getUserDataAndPosts;
