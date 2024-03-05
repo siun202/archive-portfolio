@@ -72,7 +72,7 @@ export async function POST(req: NextRequest): Promise<Response> {
           postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
         }),
       );
-    } else if (message?.button === 4) {
+    } else if (message?.button === 3) {
       return new NextResponse(
         getFrameHtmlResponse({
           image: {

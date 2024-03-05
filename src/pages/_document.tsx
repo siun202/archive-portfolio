@@ -19,13 +19,13 @@ const Document = () => {
               action: 'post',
             },
             {
+              label: 'Socials',
+              action: 'post',
+            },
+            {
               label: 'Blog',
               action: 'link',
               target: 'https://blog.avneesh.tech',
-            },
-            {
-              label: 'Socials',
-              action: 'post',
             },
           ]}
           image={{
