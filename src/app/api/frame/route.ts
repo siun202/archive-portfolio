@@ -8,13 +8,14 @@ import { NextRequest, NextResponse } from 'next/server';
 export async function POST(req: NextRequest): Promise<Response> {
   const NEXT_PUBLIC_URL = process.env.NEXT_PUBLIC_URL;
   const body: FrameRequest = await req.json();
+  console.log(body);
 
   try {
     const { message } = await getFrameMessage(body, {
       neynarApiKey: 'NEYNAR_ONCHAIN_KIT',
     });
 
-    if (message?.button === 0) {
+    if (message?.button === 1) {
       return new NextResponse(
         getFrameHtmlResponse({
           image: {
@@ -41,7 +42,7 @@ export async function POST(req: NextRequest): Promise<Response> {
           ],
         }),
       );
-    } else if (message?.button === 1) {
+    } else if (message?.button === 2) {
       return new NextResponse(
         getFrameHtmlResponse({
           image: {
@@ -71,7 +72,7 @@ export async function POST(req: NextRequest): Promise<Response> {
           postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
         }),
       );
-    } else if (message?.button === 3) {
+    } else if (message?.button === 4) {
       return new NextResponse(
         getFrameHtmlResponse({
           image: {

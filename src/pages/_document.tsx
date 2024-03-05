@@ -1,46 +1,42 @@
 import data from '@/data';
 import { Head, Html, Main, NextScript } from 'next/document';
+import { FrameMetadata } from '@coinbase/onchainkit';
 
 const Document = () => {
-  const buttons = [
-    {
-      label: 'About',
-      action: 'post',
-    },
-    {
-      label: 'Past Works',
-      action: 'post',
-    },
-    {
-      label: 'Blog',
-      action: 'link',
-      target: 'https://blog.avneesh.tech',
-    },
-    {
-      label: 'Socials',
-      action: 'post',
-    },
-  ];
   const URL = process.env.NEXT_PUBLIC_URL || 'https://avneesh.tech';
 
   return (
     <Html lang="en">
       <Head>
-        {buttons.map((button, i) => (
-          <>
-            <meta property={`fc:frame:button:${i}`} content={button.label} />
-            <meta
-              property={`fc:frame:button:${i}:action`}
-              content={button.action}
-            />
-            {button.target && (
-              <meta
-                property={`fc:frame:button:${i}:target`}
-                content={button.target}
-              />
-            )}
-          </>
-        ))}
+        <FrameMetadata
+          buttons={[
+            {
+              label: 'About',
+              action: 'post',
+            },
+            {
+              label: 'Past Works',
+              action: 'post',
+            },
+            {
+              label: 'Blog',
+              action: 'link',
+              target: 'https://blog.avneesh.tech',
+            },
+            {
+              label: 'Socials',
+              action: 'post',
+            },
+          ]}
+          image={{
+            src: `${URL}/About.png`,
+            aspectRatio: '1.91:1',
+          }}
+          input={{
+            text: 'enter...',
+          }}
+          postUrl={`${URL}/api/frame`}
+        />
 
         <meta content="width=device-width, initial-scale=1" name="viewport" />
 
