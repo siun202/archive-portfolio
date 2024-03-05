@@ -14,7 +14,7 @@ export async function POST(req: NextRequest): Promise<Response> {
       neynarApiKey: 'NEYNAR_ONCHAIN_KIT',
     });
 
-    if (message?.button === 1) {
+    if (message?.button === 0) {
       return new NextResponse(
         getFrameHtmlResponse({
           image: {
@@ -41,7 +41,7 @@ export async function POST(req: NextRequest): Promise<Response> {
           ],
         }),
       );
-    } else if (message?.button === 2) {
+    } else if (message?.button === 1) {
       return new NextResponse(
         getFrameHtmlResponse({
           image: {
@@ -71,7 +71,7 @@ export async function POST(req: NextRequest): Promise<Response> {
           postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
         }),
       );
-    } else if (message?.button === 4) {
+    } else if (message?.button === 3) {
       return new NextResponse(
         getFrameHtmlResponse({
           image: {
