@@ -32,9 +32,6 @@ const Document = () => {
             src: `${URL}/About.png`,
             aspectRatio: '1.91:1',
           }}
-          input={{
-            text: 'enter...',
-          }}
           postUrl={`${URL}/api/frame`}
         />
 
@@ -50,10 +47,6 @@ const Document = () => {
         <meta content="/About.png" property="og:image" />
         <meta content={data.keywords} name="keywords" />
         <link href="/manifest.json" rel="manifest" />
-        <meta property="fc:frame" content="vNext" />
-        <meta property="fc:frame:image" content={`${URL}/About.png`} />
-        <meta property="fc:frame:post_url" content={`${URL}/api/frame`} />
-
         <link href="/icon.png" rel="apple-touch-icon" />
 
         <meta content="#fff" name="theme-color" />
