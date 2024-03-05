@@ -50,7 +50,7 @@ export async function POST(req: NextRequest): Promise<Response> {
           },
           buttons: [
             {
-              label: '> Back',
+              label: '< Back',
               action: 'post',
             },
             {
@@ -80,7 +80,7 @@ export async function POST(req: NextRequest): Promise<Response> {
           },
           buttons: [
             {
-              label: '> Back',
+              label: '< Back',
               action: 'post',
             },
             {
@@ -94,9 +94,9 @@ export async function POST(req: NextRequest): Promise<Response> {
               target: 'https://twitter.com/avneesh0612',
             },
             {
-              label: 'Mail me',
+              label: 'LinkedIn',
               action: 'link',
-              target: 'mailto:hi@avneesh.tech',
+              target: 'https://www.linkedin.com/in/avneesh0612',
             },
           ],
         }),

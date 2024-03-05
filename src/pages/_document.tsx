@@ -36,7 +36,6 @@ const Document = () => {
         />
 
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-
         <link href="/logo.svg" rel="icon" />
         <link
           href="/rss.xml"
@@ -48,7 +47,6 @@ const Document = () => {
         <meta content={data.keywords} name="keywords" />
         <link href="/manifest.json" rel="manifest" />
         <link href="/icon.png" rel="apple-touch-icon" />
-
         <meta content="#fff" name="theme-color" />
       </Head>
       <body>
